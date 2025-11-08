@@ -1,189 +1,205 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from sklearn.cluster import KMeans # 클러스터링을 위해 import
+import datetime
 
-# --- 1. 앱 설정 ---
-st.set_page_config(
-    page_title="HUFS Data Dashboard",
-    page_icon="🎓",
-    layout="wide"
-)
-
-# --- 2. 다국어 지원 텍스트 (i18n) ---
-# 모든 UI 텍스트를 이곳에서 관리합니다.
-TEXTS = {
-    'ko': {
-        'lang_select': '언어 선택',
-        'prof': '담당교수: 이동현',
-        'school': 'Social Science & AI융합학부',
-        'course': '산업데이터시각화',
-        'filter_header': '데이터 필터',
-        'hour_slider': '시간 선택:',
-        'k_slider_label': '클러스터 개수 (K):',
-        'k_slider_help': 'K=1은 클러스터링을 사용하지 않습니다. 2 이상을 선택하면 K-Means 클러스터링을 실행합니다.',
-        'show_data_label': '필터링된 원본 데이터 보기',
-        'main_title': '🚕 뉴욕시 Uber 픽업 데이터 실시간 분석',
-        'main_desc': "이 앱은 '산업데이터시각화' 수업을 위한 Streamlit 대시보드 예제입니다. (다국어 및 클러스터링 지원)",
-        'loading_text': '데이터 로딩 중... (약 10만 건)',
-        'cluster_loading_text': '픽업 위치 클러스터링 중...',
-        'map_subheader_suffix': '시간대의 Uber 픽업 맵',
-        'pickup_count': '총 픽업 건수',
-        'no_data_warn': '해당 시간에 데이터가 없습니다.',
-        'hist_subheader': '시간대별 전체 픽업 횟수',
-        'raw_data_subheader': '원본 데이터 (필터됨)',
-        'data_load_error': '데이터 로딩 중 오류 발생'
-    },
-    'en': {
-        'lang_select': 'Language',
-        'prof': 'Professor: Donghyun Lee',
-        'school': 'Division of Social Science & AI',
-        'course': 'Industrial Data Visualization',
-        'filter_header': 'Data Filters',
-        'hour_slider': 'Select Hour:',
-        'k_slider_label': 'Number of Clusters (K):',
-        'k_slider_help': 'K=1 means no clustering. Select 2 or more to run K-Means clustering.',
-        'show_data_label': 'Show filtered raw data',
-        'main_title': '🚕 NYC Uber Pickups Real-time Analysis',
-        'main_desc': 'This app is a Streamlit dashboard example for the "Industrial Data Visualization" class. (Multilingual & Clustering supported)',
-        'loading_text': 'Loading data... (approx. 100k rows)',
-        'cluster_loading_text': 'Clustering pickup locations...',
-        'map_subheader_suffix': 'Uber Pickups Map',
-        'pickup_count': 'Total Pickups',
-        'no_data_warn': 'No data available for this hour.',
-        'hist_subheader': 'Total Pickups by Hour',
-        'raw_data_subheader': 'Raw Data (Filtered)',
-        'data_load_error': 'Error loading data'
-    }
-}
-
-# --- 3. 세션 상태 초기화 (언어 설정) ---
-if 'lang' not in st.session_state:
-    st.session_state.lang = 'ko' # 기본값은 한국어
-
-# --- 4. 헬퍼 함수 (데이터 로딩) ---
+# --- 1. 데이터 로딩 및 캐싱 ---
+# Streamlit의 캐시 기능을 사용해 7개 CSV를 한 번만 로드합니다.
 @st.cache_data
-def load_data(nrows):
-    DATA_URL = "https://s3-us-west-2.amazonaws.com/streamlit-demo-data/uber-raw-data-sep14.csv.gz"
-    try:
-        data = pd.read_csv(DATA_URL, nrows=nrows)
-        data.rename(lambda x: str(x).lower(), axis='columns', inplace=True)
-        data['date/time'] = pd.to_datetime(data['date/time'])
-        data['hour'] = data['date/time'].dt.hour
-        # st.map은 'lat', 'lon' 컬럼명이 필요합니다.
-        data = data.rename(columns={'lat': 'lat', 'lon': 'lon'})
-        return data
-    except Exception as e:
-        st.error(f"{TEXTS[st.session_state.lang]['data_load_error']}: {e}")
+def load_data():
+    """ 2019-2025 CSV 파일들을 로드하고 전처리합니다. """
+    files = [
+        '(20251106) 해외 럼피스킨 발생현황.xlsx - 2019.csv',
+        '(20251106) 해외 럼피스킨 발생현황.xlsx - 2020.csv',
+        '(20251106) 해외 럼피스킨 발생현황.xlsx - 2021.csv',
+        '(20251106) 해외 럼피스킨 발생현황.xlsx - 2022.csv',
+        '(20251106) 해외 럼피스킨 발생현황.xlsx - 2023.csv',
+        '(20251106) 해외 럼피스킨 발생현황.xlsx - 2024.csv',
+        '(20251106) 해외 럼피스킨 발생현황.xlsx - 2025.csv'
+    ]
+    
+    all_data = []
+    for f in files:
+        try:
+            df = pd.read_csv(f)
+            all_data.append(df)
+        except FileNotFoundError:
+            # Streamlit Cloud에 배포 시, 파일 경로 문제 확인용
+            st.error(f"파일을 찾을 수 없습니다: {f}. app.py와 동일한 위치에 있는지 확인하세요.")
+            pass
+    
+    if not all_data:
         return pd.DataFrame()
 
-# 클러스터링을 위한 색상 리스트 (최대 10개)
-CLUSTER_COLORS = [
-    "#FF0000", "#0000FF", "#00FF00", "#FFFF00", "#00FFFF",
-    "#FF00FF", "#C0C0C0", "#800000", "#008000", "#000080"
-]
-
-# --- 5. 사이드바 UI ---
-with st.sidebar:
-    # 언어 선택
-    lang_options = {'한국어': 'ko', 'English': 'en'}
-    selected_lang_str = st.radio(
-        label=TEXTS['ko']['lang_select'], # 라벨은 고정
-        options=lang_options.keys(),
-        horizontal=True,
-    )
-    st.session_state.lang = lang_options[selected_lang_str]
-    lang = st.session_state.lang # 편의를 위해 변수 할당
-
-    # 로고 및 수업 정보
-    LOGO_URL = "https://www.hufs.ac.kr/sites/hufs/images/sub/simbol_list3.png"
-    st.image(LOGO_URL)
+    data = pd.concat(all_data, ignore_index=True)
     
-    st.title("수업 정보")
-    st.markdown(
-        f"""
-        - **대학교:** 한국외국어대학교 (HUFS)
-        - **학부:** {TEXTS[lang]['school']}
-        - **수업:** {TEXTS[lang]['course']}
-        - **{TEXTS[lang]['prof']}** """
-    )
+    # --- 데이터 전처리 ---
+    # '발생일' 컬럼을 datetime 객체로 변환 (오류 발생 시 누락 처리)
+    data['발생일'] = pd.to_datetime(data['발생일'], errors='coerce')
     
-    st.divider() 
+    # 필수 컬럼(발생일, 위도, 경도, 지역) 누락 데이터 제거
+    data.dropna(subset=['발생일', 'Lat', 'Long', '지역'], inplace=True)
     
-    st.header(TEXTS[lang]['filter_header'])
+    # 유효하지 않은 위도/경도 값(0) 제거
+    data = data[(data['Lat'] != 0) & (data['Long'] != 0)]
     
-    # 시간 필터
-    hour_to_filter = st.slider(
-        TEXTS[lang]['hour_slider'], 
-        0, 23, 17
-    )
-    
-    # 클러스터 개수(K) 필터
-    k_clusters = st.slider(
-        TEXTS[lang]['k_slider_label'],
-        min_value=1,
-        max_value=10,
-        value=1, # 기본값 1 (클러스터링 없음)
-        help=TEXTS[lang]['k_slider_help']
-    )
-    
-    # 원본 데이터 보기
-    show_raw_data = st.checkbox(TEXTS[lang]['show_data_label'])
+    # '월-년' 컬럼 생성 (차트용)
+    data['month_year'] = data['발생일'].dt.to_period('M')
+    data = data.sort_values('발생일')
+    return data
 
-# --- 6. 메인 화면 ---
+# --- 2. Streamlit 앱 구성 ---
 
-# 현재 언어 설정(lang)에 따라 텍스트를 가져옵니다.
-lang = st.session_state.lang
+# 페이지 레이아웃을 'wide'로 설정
+st.set_page_config(layout="wide", page_title="신종 감염병 AI 에이전트")
 
-st.title(TEXTS[lang]['main_title'])
-st.markdown(TEXTS[lang]['main_desc'])
+# --- 데이터 로드 ---
+data = load_data()
 
-# 데이터 로딩
-with st.spinner(TEXTS[lang]['loading_text']):
-    data = load_data(100000)
+if data.empty:
+    st.error("데이터 로딩에 실패했습니다. CSV 파일들을 올바른 위치에 두었는지 확인하세요.")
+    st.stop() # 데이터 없으면 앱 실행 중지
 
-if not data.empty:
-    # 시간 필터링
-    filtered_data = data[data['hour'] == hour_to_filter].copy() # .copy()로 Warning 방지
+# --- 3. 사이드바 (AI 에이전트 제어판) ---
+st.sidebar.title("🤖 AI 에이전트 제어판")
+st.sidebar.markdown("---")
 
-    # 맵 제목
-    st.subheader(f"{hour_to_filter}:00 {TEXTS[lang]['map_subheader_suffix']}")
-    st.write(f"{TEXTS[lang]['pickup_count']}: **{len(filtered_data)}**")
+# [핵심 기능 1] Agent A/B 테스트 토글
+agent_b_enabled = st.sidebar.toggle(
+    "LLM 인지 강화 활성화 (Agent B)", 
+    value=True, 
+    help="Agent B는 LLM의 맥락 인지(XAI) 기능을 통해 더 정확한 예측과 '설명'을 제공합니다."
+)
+st.sidebar.markdown("---")
 
-    # 맵 시각화 (클러스터링 포함)
-    if not filtered_data.empty:
-        if k_clusters > 1:
-            # K=2 이상이면 K-Means 클러스터링 실행
-            with st.spinner(TEXTS[lang]['cluster_loading_text']):
-                # 위도(lat)와 경도(lon)를 기반으로 클러스터링
-                kmeans = KMeans(n_clusters=k_clusters, n_init=10, random_state=42)
-                filtered_data['cluster'] = kmeans.fit_predict(filtered_data[['lat', 'lon']])
-                
-                # 클러스터 번호에 따라 색상 매핑
-                # (10개가 넘는 클러스터는 색상이 반복됩니다)
-                filtered_data['color'] = filtered_data['cluster'].apply(
-                    lambda x: CLUSTER_COLORS[x % len(CLUSTER_COLORS)]
-                )
-                
-                # 'color' 컬럼을 사용하여 지도에 색상 표시
-                st.map(filtered_data, color='color')
-                
-        else:
-            # K=1이면 (기본값) 클러스터링 없이 표시
-            st.map(filtered_data)
-            
-    else:
-        st.warning(TEXTS[lang]['no_data_warn'])
+# [핵심 기능 2] 'What-if' 시뮬레이션 시점
+st.sidebar.subheader("시뮬레이션 시점 ('What-if')")
 
-    # 시간대별 픽업 통계 (막대 차트)
-    st.subheader(TEXTS[lang]['hist_subheader'])
-    hist_values = np.histogram(data['hour'], bins=24, range=(0, 24))[0]
-    hist_df = pd.DataFrame({'hour': range(24), 'pickups': hist_values})
-    st.bar_chart(hist_df.set_index('hour'))
+# 실제 한국 최초 발생일 (2023년 10월 19일) 직전으로 기본값 설정
+korea_outbreak_date = datetime.datetime(2023, 10, 19)
+default_sim_date = datetime.datetime(2023, 9, 30) # 2023년 9월 30일
 
-    # 원본 데이터 표시
-    if show_raw_data:
-        st.subheader(TEXTS[lang]['raw_data_subheader'])
-        st.dataframe(filtered_data, use_container_width=True)
+sim_date = st.sidebar.slider(
+    "가상 '오늘' 날짜 설정:",
+    min_value=data['발생일'].min().to_pydatetime(),
+    max_value=data['발생일'].max().to_pydatetime(),
+    value=default_sim_date,
+    format="YYYY-MM-DD",
+    help="시간을 돌려 '만약 그날 이 AI가 있었다면?'을 시연합니다. (기본값: 2023년 한국 최초 발생 직전)"
+)
+st.sidebar.markdown("---")
+
+# [핵심 기능 3] 분석 대상 대륙 선택
+continents = st.sidebar.multiselect(
+    "분석 대상 대륙",
+    options=data['지역'].unique(),
+    default=['아시아', '유럽'],
+    help="럼피스킨은 아시아와 유럽을 거쳐 유입되었습니다."
+)
+st.sidebar.markdown("---")
+st.sidebar.info("이 대시보드는 '신종 감염병 AI 프레임워크'가 LSD 사태를 어떻게 예측했을지 시연하는 PoC입니다.")
+
+
+# --- 4. 메인 대시보드 (미션 컨트롤) ---
+
+st.title("🤖 신종 감염병 조기 경보 AI 에이전트")
+st.markdown(f"**케이스 스터디:** 럼피스킨(LSD) / **시뮬레이션 시점:** `{sim_date.strftime('%Y-%m-%d')}`")
+
+# --- 5. PoC용 가상 지표 생성 (에이전트 두뇌) ---
+
+# 시뮬레이션 시점과 대륙에 맞춰 데이터 필터링
+filtered_data = data[(data['발생일'] <= sim_date) & (data['지역'].isin(continents))]
+
+# [PoC 로직] 
+# '아시아' 데이터가 많아질수록 위험도 증가 (Baseline)
+# Agent B는 아시아 데이터에 더 높은 가중치를 부여 (LLM 인지)
+asia_cases = len(filtered_data[filtered_data['지역'] == '아시아'])
+total_cases = len(filtered_data)
+time_factor = (sim_date.year - 2019) / 4 # 2019년 대비 시간 흐름 가중치 (최대 1)
+
+# Agent A (Baseline) 위험도: 아시아 케이스 비율 + 시간 흐름
+risk_score_a = min(99, (asia_cases / (total_cases + 1)) * 100 + (time_factor * 20))
+
+# Agent B (LLM 강화) 위험도: Baseline + LLM의 '맥락 인지' 가중치
+# LLM은 아시아, 특히 2023년 데이터에 높은 가중치를 둠
+llm_context_bonus = (asia_cases * time_factor * 1.5) if agent_b_enabled else 0
+risk_score_b = min(99, risk_score_a + llm_context_bonus)
+
+# LLM 파생 변수 (XAI)
+if risk_score_b > 80:
+    llm_phase = "확산기 (Diffusion)"
+    llm_score = "9.5"
+    recommendation_a = "아시아 전역 확산. 위험도 급증."
+    recommendation_b = "🚨 **긴급 경보** 🚨\nLLM이 '유행 확산기' 패턴을 감지했습니다. **한국 유입이 임박**했습니다. (위험도: 9.5/10)"
+elif risk_score_b > 50:
+    llm_phase = "초기 (Early)"
+    llm_score = "7.0"
+    recommendation_a = "아시아 남부 확산. 모니터링 필요."
+    recommendation_b = "⚠️ **주의 경보** ⚠️\nLLM이 '유행 초기' 패턴을 감지했습니다. 아시아-한국 경로의 위험도가 높습니다. (위험도: 7.0/10)"
 else:
-    st.error(TEXTS[lang]['data_load_error'])
+    llm_phase = "잠복기 (Latent)"
+    llm_score = "4.0"
+    recommendation_a = "유럽/아프리카 위주 발생."
+    recommendation_b = "📈 **관심** 📈\nLLM이 '잠복기' 패턴을 감지했습니다. 지속적인 글로벌 모니터링이 필요합니다. (위험도: 4.0/10)"
+
+
+# --- 6. '얼굴' 3단 핵심 요약 (Prediction / XAI / Action) ---
+st.header(f"AI 에이전트 핵심 브리핑 (As of: {sim_date.strftime('%Y-%m-%d')})")
+st.markdown("---")
+
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    st.subheader("① 한국 유입 위험도 (Prediction)")
+    if agent_b_enabled:
+        st.metric(label="Agent B (LLM 강화)", value=f"{risk_score_b:.1f} %", delta=f"{risk_score_b - risk_score_a:.1f} %p 향상")
+    else:
+        st.metric(label="Agent A (Baseline)", value=f"{risk_score_a:.1f} %", delta=None)
+    st.markdown("`Agent B`는 LLM의 맥락 인지를 통해 더 정확한 위험도를 예측합니다.")
+
+with col2:
+    st.subheader("② LLM의 XAI 진단 (Why)")
+    if agent_b_enabled:
+        st.metric(label="LLM 진단: 글로벌 유행 단계", value=llm_phase)
+        st.metric(label="LLM 평가: 자체 위험 점수", value=f"{llm_score} / 10")
+        st.markdown("`Agent A`는 이 '맥락' 정보가 없습니다.")
+    else:
+        st.info("LLM 인지 강화를 활성화해야 '설명 가능한(XAI)' 진단 정보를 볼 수 있습니다.")
+
+with col3:
+    st.subheader("③ AI 에이전트 권고 (Action)")
+    if agent_b_enabled:
+        st.warning(recommendation_b) # 위험도에 따라 색상 변경
+    else:
+        st.info(f"Agent A 권고: {recommendation_a}")
+    st.markdown("`Agent B`는 XAI 진단을 기반으로 구체적인 행동을 권고합니다.")
+
+st.markdown("---")
+
+# --- 7. 시각화 자료 (지도 및 차트) ---
+
+col_map, col_chart = st.columns(2)
+
+with col_map:
+    st.subheader(f"🗺️ 글로벌 확산 지도 (Until {sim_date.strftime('%Y-%m-%d')})")
+    if filtered_data.empty:
+        st.warning("선택한 시점/지역에 데이터가 없습니다.")
+    else:
+        # st.map을 위해 위도/경도 컬럼명 변경
+        map_data = filtered_data.rename(columns={'Lat': 'lat', 'Long': 'lon'})
+        st.map(map_data[['lat', 'lon']])
+
+with col_chart:
+    st.subheader(f"📈 월별 발생 건수 추이 (Until {sim_date.strftime('%Y-%m')})")
+    # 월별 발생 건수 집계
+    monthly_counts = filtered_data.groupby('month_year').size().reset_index(name='건수')
+    monthly_counts['month_year'] = monthly_counts['month_year'].astype(str) # Streamlit 차트를 위해 str 변환
+    
+    if monthly_counts.empty:
+        st.warning("선택한 시점/지역에 데이터가 없습니다.")
+    else:
+        st.line_chart(monthly_counts.set_index('month_year'))
+
+# --- 8. 원본 데이터 보기 ---
+with st.expander(f"시뮬레이션 시점 기준 상세 데이터 보기 ({len(filtered_data)} 건)"):
+    st.dataframe(filtered_data)
