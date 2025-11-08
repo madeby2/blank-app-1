@@ -126,7 +126,10 @@ total_cases = len(filtered_data)
 
 # (수정) time_factor 로직 단순화 (2025년 데이터 기준이므로)
 # 2025년 데이터 내에서 후반부 날짜(max_date)에 가까울수록 가중치 부여
-time_factor_raw = (sim_date - min_sim_date).days / (max_sim_date - min_sim_date + 1).days
+
+# (수정) time_factor_raw = (sim_date - min_sim_date).days / (max_sim_date - min_sim_date + 1).days ->
+# (timedelta + 1)에서 TypeError 발생. .days를 먼저 추출하고 1을 더해야 함.
+time_factor_raw = (sim_date - min_sim_date).days / ((max_sim_date - min_sim_date).days + 1)
 time_factor = min(1.0, max(0.1, time_factor_raw)) # 0.1~1.0 사이 값
 
 # Agent A (Baseline) 위험도: 케이스 비율 + 시간 흐름
