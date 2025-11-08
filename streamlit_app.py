@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import datetime
+import os # <<< [수정] os 모듈 추가
 
 # --- 1. 데이터 로딩 및 캐싱 (수정됨) ---
 # Streamlit의 캐시 기능을 사용해 2025년 CSV 한 개만 로드합니다.
@@ -10,12 +11,27 @@ def load_data():
     """ 2025년 CSV 파일 하나만 로드하고 전처리합니다. """
     
     # (수정) 2025년 파일 하나만 타겟
-    file_2025 = '(20251106)2025.csv'
+    file_name = '(20251106)2025.csv'
+    
+    # --- [수정] 파일 경로를 절대 경로로 설정 ---
+    # __file__ : 현재 실행 중인 스크립트(app.py)의 경로
+    # os.path.dirname(__file__) : app.py가 있는 폴더
+    # os.path.join(...) : 폴더 경로와 파일 이름을 합쳐 전체 경로 생성
+    try:
+        base_dir = os.path.dirname(os.path.abspath(__file__))
+    except NameError:
+        # Streamlit이 특정 환경(예: 클라우드)에서 __file__을 인식 못할 경우 대비
+        base_dir = os.getcwd() 
+        
+    file_path = os.path.join(base_dir, file_name)
+    # -------------------------------------------
     
     try:
-        data = pd.read_csv(file_2025)
+        # (수정) file_2025 대신 file_path로 로드
+        data = pd.read_csv(file_path)
     except FileNotFoundError:
-        st.error(f"파일을 찾을 수 없습니다: {file_2025}. app.py와 동일한 위치에 있는지 확인하세요.")
+        # (수정) 에러 메시지에 전체 경로를 표시하여 디버깅 용이하게 함
+        st.error(f"파일을 찾을 수 없습니다: {file_path}. app.py와 동일한 위치에 있는지, 파일명 오타가 없는지 확인하세요.")
         return pd.DataFrame()
     
     if data.empty:
@@ -45,7 +61,7 @@ st.set_page_config(layout="wide", page_title="신종 감염병 AI 에이전트")
 data = load_data()
 
 if data.empty:
-    st.error("데이터 로딩에 실패했습니다. (20251106)...2025.csv 파일이 app.py와 동일한 위치에 있는지 확인하세요.")
+    st.error("데이터 로딩에 실패했습니다. (20251106)2025.csv 파일이 app.py와 동일한 위치에 있는지 확인하세요.")
     st.stop() # 데이터 없으면 앱 실행 중지
 
 # --- 3. 사이드바 (AI 에이전트 제어판) ---
