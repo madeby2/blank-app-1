@@ -1,0 +1,398 @@
+﻿번호,월차,지역,국가명,보고일,건수,발생일,발생 지역,구분,축종,사육,감염,폐사,살처분,도축,백신접종,"국내
+이동제한",발생대응 예방접종,"봉쇄지역 및/또는 
+보호지역
+예찰(외)","봉쇄지역 및/또는 
+보호지역
+예찰(내)",스크리닝,이력추적,격리,"동물성
+생산물
+공식 처리","사체/
+부산물/
+폐기물
+공식처리","생산물 또는 부산물 내 
+병원체 
+불활화 처리",살처분,"선택적 살처분 및
+폐기","야생 보균원 
+관리",방역대 설정,소독,해충구제,매개체 관리,매개체 예찰,생·해체 검사,"백신접종 허용
+(백신이 있는경우)",백신접종 금지,"감염
+동물
+미치료",감염동물 치료,도축,State,City,Lat,Long
+1,1,아프리카,튀니지,2025/01/07,1,2024/11/22,"Zaafrane, Kef Est, Le Kef",사육,소,9,2,0,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Le Kef,Kef Est,36.19043,8.84629
+2,1,아프리카,튀니지,2025/01/07,1,2024/11/08,"Sidi Mtir, Tajerouine, Le Kef",사육,소,2,1,0,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Le Kef,Tajerouine,36.039974,8.630771
+3,1,아프리카,튀니지,2025/01/07,1,2024/11/06,"Sidi khiar, Nebeur, Le Kef",사육,소,4,1,0,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Le Kef,Nebeur,36.356604,8.764654
+4,1,아프리카,튀니지,2025/01/07,1,2024/11/02,"Sed elkhir, Kalaat Senan, Le Kef",사육,소,6,1,0,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Le Kef,Kalaat Senan,35.822418,8.400005
+5,1,아프리카,튀니지,2025/01/07,1,2024/10/31,"Semmana, Kef Ouest, Le Kef",사육,소,10,3,0,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Le Kef,Kef Ouest,36.111401,8.676934
+6,1,아프리카,튀니지,2025/01/07,1,2024/10/30,"Zaafrane, Kef Est, Le Kef",사육,소,4,1,0,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Le Kef,Kef Est,36.145476,8.745613
+7,1,아프리카,튀니지,2025/01/07,1,2024/10/31,"Zaafrane, Kef Est, Le Kef",사육,소,10,4,0,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Le Kef,Kef Est,36.172487,8.832042
+8,1,아프리카,튀니지,2025/01/07,1,2024/10/31,"Zaafrane, Kef Est, Le Kef",사육,소,11,2,0,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Le Kef,Kef Est,36.14654,8.745715
+9,1,아프리카,튀니지,2025/01/07,1,2024/11/25,"Sidi Salem, Sidi Bouzid Ouest, Sidi Bou Zid",사육,소,1,1,0,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Sidi Bou Zid,Sidi Bouzid Ouest,35.141106,9.499512
+10,1,아프리카,튀니지,2025/01/07,1,2024/11/15,"Sidi salem, Sidi Bouzid Ouest, Sidi Bou Zid",사육,소,4,1,0,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Sidi Bou Zid,Sidi Bouzid Ouest,35.138799,9.496755
+11,1,아프리카,튀니지,2025/01/07,1,2024/11/21,"Elahwaz, Sidi Bouzid Est, Sidi Bou Zid",사육,소,1,1,0,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Sidi Bou Zid,Sidi Bouzid Est,34.971297,9.470662
+12,1,아프리카,튀니지,2025/01/07,1,2024/11/20,"Sidi Salem, Sidi Bouzid Ouest, Sidi Bou Zid",사육,소,1,1,0,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Sidi Bou Zid,Sidi Bouzid Ouest,35.080798,9.455047
+13,1,아프리카,튀니지,2025/01/07,1,2024/11/16,"Bennour, Sidi Bouzid Est, Sidi Bou Zid",사육,소,5,1,0,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Sidi Bou Zid,Sidi Bouzid Est,35.145906,9.547939
+14,1,아프리카,튀니지,2025/01/07,1,2024/11/20,"Bennour, Sidi Bouzid Est, Sidi Bou Zid",사육,소,3,1,0,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Sidi Bou Zid,Sidi Bouzid Est,35.154327,9.546909
+15,1,아프리카,튀니지,2025/01/07,1,2024/11/12,"Dar chaabane, Dar Chaabane El Fehri, Nabeul",사육,소,15,1,0,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Nabeul,Dar Chaabane El Fehri,36.45471,10.759598
+16,1,아프리카,튀니지,2025/01/07,1,2024/11/11,"Zaouiet kontech, Jammel, Monastir",사육,소,3,1,0,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Monastir,Jammel,35.646362,10.755958
+17,1,아프리카,튀니지,2025/01/07,1,2024/11/19,"Saddine, Makthar, Siliana",사육,소,8,1,0,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Siliana,Makthar,35.826582,9.041354
+18,1,아프리카,튀니지,2025/01/07,1,2024/12/16,"Bourouis nord, Bourouis, Siliana",사육,소,20,4,0,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Siliana,Bourouis,36.18617,9.128233
+19,1,아프리카,튀니지,2025/01/07,1,2024/10/21,"Ghammarth, La Marsa, Tunis",사육,소,5,1,0,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Tunis,La Marsa,36.917326,10.278644
+20,1,아프리카,튀니지,2025/01/07,1,2024/11/07,"Gammarth, La Marsa, Tunis",사육,소,18,6,1,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Tunis,La Marsa,36.913158,10.287937
+21,1,아프리카,튀니지,2025/01/07,1,2024/11/16,"Aousja, Ghar El Melh, Bizerte",사육,소,10,3,0,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Bizerte,Ghar El Melh,37.193565,10.096699
+22,1,아프리카,튀니지,2025/01/07,1,2024/11/14,"Aousja, Ghar El Melh, Bizerte",사육,소,9,2,0,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Bizerte,Ghar El Melh,37.193728,10.092003
+23,1,아프리카,튀니지,2025/01/07,1,2024/11/07,"El garia, Ras Jebel, Bizerte",사육,소,15,1,0,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Bizerte,Ras Jebel,37.208524,10.086492
+24,1,아프리카,튀니지,2025/01/07,1,2024/11/06,"Ghriaria, Béja Nord, Béja",사육,소,13,1,0,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Béja,Béja Nord,36.711225,9.110913
+25,1,아프리카,튀니지,2025/01/07,1,2024/11/03,"Fatnassa, Béja Nord, Béja",사육,소,2,1,0,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Béja,Béja Nord,36.922096,9.24738
+26,1,아프리카,튀니지,2025/01/07,1,2024/11/14,"Mkhachbia, Béja Sud, Béja",사육,소,208,2,0,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Béja,Béja Sud,36.70873,9.28517
+27,1,아프리카,튀니지,2025/01/07,1,2024/11/07,"Khacheb, Goubellat, Béja",사육,소,9,2,1,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Béja,Goubellat,36.601187,9.744103
+28,1,아프리카,튀니지,2025/01/07,1,2024/10/28,"Enaser, Mnihla, Ariana",사육,소,6,1,0,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Ariana,Mnihla,36.868552,10.097554
+29,1,아프리카,튀니지,2025/01/07,1,2024/11/07,"Souani, Jendouba Nord, Jendouba",사육,소,10,2,1,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Jendouba,Jendouba Nord,36.535145,8.674756
+30,1,아프리카,튀니지,2025/01/07,1,2024/11/23,"Elhamdia, Tabarka, Jendouba",사육,소,5,2,0,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Jendouba,Tabarka,36.942684,8.767519
+31,1,아프리카,튀니지,2025/01/07,1,2024/11/24,"Edouara, Ghardimaou, Jendouba",사육,소,2,1,0,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Jendouba,Ghardimaou,36.458954,8.449982
+32,1,아프리카,튀니지,2025/01/07,1,2024/11/22,"Edouara, Ghardimaou, Jendouba",사육,소,2,1,0,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Jendouba,Ghardimaou,36.456858,8.423498
+33,1,아프리카,튀니지,2025/01/07,1,2024/11/14,"Edouara, Ghardimaou, Jendouba",사육,소,1,1,0,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Jendouba,Ghardimaou,36.458088,8.426128
+34,1,아프리카,튀니지,2025/01/07,1,2024/11/16,"Edouara, Ghardimaou, Jendouba",사육,소,2,2,0,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Jendouba,Ghardimaou,36.461127,8.455418
+35,1,아프리카,튀니지,2025/01/07,1,2024/11/19,"Souani, Jendouba Nord, Jendouba",사육,소,6,1,0,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Jendouba,Jendouba Nord,36.530171,8.686502
+36,1,아프리카,튀니지,2025/01/07,1,2024/11/19,"Souani, Jendouba Nord, Jendouba",사육,소,4,2,1,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Jendouba,Jendouba Nord,36.528145,8.674315
+37,1,아프리카,튀니지,2025/01/07,1,2024/11/06,"Elmalga, Jendouba Sud, Jendouba",사육,소,7,3,1,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Jendouba,Jendouba Sud,36.513445,8.790274
+38,1,아프리카,튀니지,2025/01/07,1,2024/11/16,"Elbrahmi, Bousalem, Jendouba",사육,소,15,3,1,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Jendouba,Bousalem,36.593236,8.92675
+39,1,아프리카,튀니지,2025/01/07,1,2024/11/16,"Elbrahmi, Bousalem, Jendouba",사육,소,12,2,1,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Jendouba,Bousalem,36.591582,8.928467
+40,1,아프리카,튀니지,2025/01/07,1,2024/11/05,"Hedhil, Fernana, Jendouba",사육,소,4,1,0,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Jendouba,Fernana,36.669717,8.666553
+41,1,아프리카,튀니지,2025/01/07,1,2024/10/26,"Errakhaa, Ghardimaou, Jendouba",사육,소,4,2,1,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Jendouba,Ghardimaou,36.451264,8.403748
+42,1,아프리카,튀니지,2025/01/07,1,2024/10/31,"Elbrahmi, Bousalem, Jendouba",사육,소,84,1,0,0,0,,,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Jendouba,Bousalem,36.611951,8.970229
+43,1,아시아,캄보디아,2025/01/30,1,2024/12/28,"Nareay commune, Chhuk district, Kampot province, Nareay, Chhuk, Kâmpôt",사육,소,734,10,0,,,,,,,,,,,,,,,,,,Y,Y,Y,,,,,,,,Kâmpôt,Chhuk,10.879017,104.52553
+44,1,아시아,캄보디아,2025/01/30,1,2025/01/02,"Rumchek commune, Kampong Siem district, Kampong Cham province, Rumchek, Kampong Siem, Kâmpóng Cham",사육,소,85,4,1,,,,,,,,,,,,,,,,,,Y,Y,Y,,,,,,,,Kâmpóng Cham,Kampong Siem,12.105172,105.50599
+45,1,아시아,캄보디아,2025/01/30,1,2025/01/01,"Ro Ang commune, Kampong Siem district, Kampong Cham province, Ro'ang, Kampong Siem, Kâmpóng Cham",사육,소,1800,3,0,,,,,,,,,,,,,,,,,,Y,Y,Y,,,,,,,,Kâmpóng Cham,Kampong Siem,12.034649,105.440299
+46,3,아프리카,튀니지,2025/03/07,1,2024/12/11,"khacheb, Goubellat, Béja",사육,소,18,2,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Béja,Goubellat,36.613587,9.675856
+47,3,아프리카,튀니지,2025/03/07,1,2024/12/08,"Hamem Siala, Béja Sud, Béja",사육,소,33,4,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Béja,Béja Sud,36.663672,9.158476
+48,3,아프리카,튀니지,2025/03/07,1,2024/12/08,"Mestouta, Béja Sud, Béja",사육,소,15,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Béja,Béja Sud,36.628816,9.187589
+49,3,아프리카,튀니지,2025/03/07,1,2024/12/07,"Bellif, Nefza, Béja",사육,소,11,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Béja,Nefza,37.013826,9.058524
+50,3,아프리카,튀니지,2025/03/07,1,2024/10/12,"Djebel Ediss, Nefza, Béja",사육,소,4,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Béja,Nefza,37.010114,9.148965
+51,3,아프리카,튀니지,2025/03/07,1,2024/11/29,"Mejez el beb Ville, Mejez El Bab, Béja",사육,소,2,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Béja,Mejez El Bab,36.648966,9.617844
+52,3,아프리카,튀니지,2025/03/07,1,2024/11/26,"Fatnassa, Nefza, Béja",사육,소,6,3,1,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Béja,Nefza,36.942754,9.197798
+53,3,아프리카,튀니지,2025/03/07,1,2024/12/13,"Chorfech, Sidi Thabet, Ariana",사육,소,31,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Ariana,Sidi Thabet,36.935608,10.035057
+54,3,아프리카,튀니지,2025/03/07,1,2024/12/15,"Kalaat Andalous Est, Kalaat El Andalous, Ariana",사육,소,15,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Ariana,Kalaat El Andalous,37.033463,10.164462
+55,3,아프리카,튀니지,2025/03/07,1,2024/12/16,"Kalaat Andalous Est, Kalaat El Andalous, Ariana",사육,소,44,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Ariana,Kalaat El Andalous,37.022226,10.172873
+56,3,아프리카,튀니지,2025/03/07,1,2024/12/27,"Kalaat Andalous Est, Kalaat El Andalous, Ariana",사육,소,14,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Ariana,Kalaat El Andalous,37.0262,10.169612
+57,3,아프리카,튀니지,2025/03/07,1,2024/12/10,"Kaalat Andalous Est, Kalaat El Andalous, Ariana",사육,소,44,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Ariana,Kalaat El Andalous,37.033326,10.161715
+58,3,아프리카,튀니지,2025/03/07,1,2024/12/21,"Bouhnach, Kalaat El Andalous, Ariana",사육,소,92,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Ariana,Kalaat El Andalous,36.994124,10.144893
+59,3,아프리카,튀니지,2025/03/07,1,2024/12/15,"Kaalat Andalous Est, Kalaat El Andalous, Ariana",사육,소,11,2,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Ariana,Kalaat El Andalous,37.084096,10.151875
+60,3,아프리카,튀니지,2025/03/07,1,2024/12/10,"Chorfech, Sidi Thabet, Ariana",사육,소,30,3,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Ariana,Sidi Thabet,36.937051,10.037282
+61,3,아프리카,튀니지,2025/03/07,1,2024/12/23,"Kroussia ouest, Sidi El Heni, Sousse",사육,소,2,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Sousse,Sidi El Heni,35.739954,10.264849
+62,3,아프리카,튀니지,2025/03/07,1,2024/12/30,"Saidia, Oued Ellil, Manubah",사육,소,16,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Manubah,Oued Ellil,36.819507,9.971867
+63,3,아프리카,튀니지,2025/03/07,1,2024/12/28,"Morneg, Mornag, Ben Arous (Tunis Sud)",사육,소,13,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Ben Arous (Tunis Sud),Mornag,36.664611,10.301222
+64,3,아프리카,튀니지,2025/03/07,1,2024/12/20,"Sidi Shili, Béja Sud, Béja",사육,소,12,2,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Béja,Béja Sud,36.629076,9.144852
+65,3,아프리카,튀니지,2025/03/07,1,2025/01/06,"Sidi Fradj, Soukra, Ariana",사육,소,16,2,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Ariana,Soukra,36.869481,10.251934
+66,3,아프리카,튀니지,2025/03/07,1,2025/01/06,"Hay chaker, Raoued, Ariana",사육,소,2,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Ariana,Raoued,36.944992,10.163225
+67,3,아프리카,튀니지,2025/03/07,1,2025/01/04,"Sidi Fradj, Soukra, Ariana",사육,소,15,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Ariana,Soukra,36.871617,10.256546
+68,3,아프리카,튀니지,2025/03/07,1,2025/01/02,"Elghazala, Raoued, Ariana",사육,소,47,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Ariana,Raoued,36.935933,10.167273
+69,3,아프리카,튀니지,2025/03/07,1,2024/12/28,"Menzel Habib, Borj El Amri, Manubah",사육,소,6,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Manubah,Borj El Amri,36.71477,9.878114
+70,3,아프리카,튀니지,2025/03/07,1,2024/12/22,"Maatis, Mejez El Bab, Béja",사육,소,10,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Béja,Mejez El Bab,36.651521,9.621369
+71,3,아프리카,튀니지,2025/03/07,1,2024/12/18,"Kalaat andalous Est, Kalaat El Andalous, Ariana",사육,소,7,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Ariana,Kalaat El Andalous,37.057341,10.123447
+72,3,아프리카,튀니지,2025/03/07,1,2024/12/30,"Sidi Fradj, Soukra, Ariana",사육,소,12,3,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Ariana,Soukra,36.87747,10.254132
+73,3,아프리카,튀니지,2025/03/07,1,2024/12/24,"Sabalet Ben Ammar, Sidi Thabet, Ariana",사육,소,22,2,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Ariana,Sidi Thabet,36.905022,10.086489
+74,3,아프리카,튀니지,2025/03/07,1,2024/12/15,"Souaf Est, Saouaf, Zaghouan",사육,소,9,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Zaghouan,Saouaf,36.230687,10.176237
+75,3,아프리카,튀니지,2025/03/07,1,2024/12/02,"El mourouj, Kabaria, Tunis",사육,소,32,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Tunis,Kabaria,36.758979,10.198825
+76,3,아프리카,튀니지,2025/03/07,1,2024/12/02,"Zearna Ouest, Kalaa Kebira, Sousse",사육,소,6,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Sousse,Kalaa Kebira,35.882898,10.509345
+77,3,아프리카,튀니지,2025/03/07,1,2024/12/13,"Ain Fourna, Bargou, Siliana",사육,소,2,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Siliana,Bargou,36.139758,9.647261
+78,3,아프리카,튀니지,2025/03/07,1,2024/12/02,"Chouarnia, Makthar, Siliana",사육,소,6,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Siliana,Makthar,35.944748,9.131037
+79,3,아프리카,튀니지,2025/03/07,1,2024/11/30,"El hamem, Kesra, Siliana",사육,소,1,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Siliana,Kesra,35.815721,9.323437
+80,3,아프리카,튀니지,2025/03/07,1,2024/12/11,"Sadakia, Sidi Bouzid Ouest, Sidi Bou Zid",사육,소,12,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Sidi Bou Zid,Sidi Bouzid Ouest,35.077846,9.423409
+81,3,아프리카,튀니지,2025/03/07,1,2024/12/12,"Ettouila, Sidi Bouzid Ouest, Sidi Bou Zid",사육,소,17,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Sidi Bou Zid,Sidi Bouzid Ouest,34.998751,9.429003
+82,3,아프리카,튀니지,2025/03/07,1,2024/12/09,"Ettouila, Sidi Bouzid Ouest, Sidi Bou Zid",사육,소,6,3,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Sidi Bou Zid,Sidi Bouzid Ouest,34.993728,9.399757
+83,3,아프리카,튀니지,2025/03/07,1,2024/12/11,"Dar Chaabane, Dar Chaabane El Fehri, Nabeul",사육,소,6,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Nabeul,Dar Chaabane El Fehri,36.471175,10.736346
+84,3,아프리카,튀니지,2025/03/07,1,2024/12/10,"Korba, Korba, Nabeul",사육,소,22,2,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Nabeul,Korba,36.586558,10.855584
+85,3,아프리카,튀니지,2025/03/07,1,2024/12/09,"El asfour, Menzel Temime, Nabeul",사육,소,18,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Nabeul,Menzel Temime,36.756527,10.914431
+86,3,아프리카,튀니지,2025/03/07,1,2024/11/26,"Kelibia Est, Kelibia, Nabeul",사육,소,5,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Nabeul,Kelibia,36.849008,11.114001
+87,3,아프리카,튀니지,2025/03/07,1,2024/12/28,"Borj el amri, Borj El Amri, Manubah",사육,소,11,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Manubah,Borj El Amri,36.721208,9.88884
+88,3,아프리카,튀니지,2025/03/07,1,2024/12/22,"Borj el amri, Borj El Amri, Manubah",사육,소,104,6,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Manubah,Borj El Amri,36.718262,9.883329
+89,3,아프리카,튀니지,2025/03/07,1,2024/12/25,"Menzel Habib, Borj El Amri, Manubah",사육,소,5,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Manubah,Borj El Amri,36.713072,9.88067
+90,3,아프리카,튀니지,2025/03/07,1,2024/12/10,"Mehrine, El Battan, Manubah",사육,소,5,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Manubah,El Battan,36.778573,9.833114
+91,3,아프리카,튀니지,2025/03/07,1,2024/12/22,"Riadh Bou jelal, El Jem, Mahdia",사육,소,2,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Mahdia,El Jem,35.27444,10.597066
+92,3,아프리카,튀니지,2025/03/07,1,2024/12/03,"Garte en naam, Feriana, Kassérine",사육,소,6,2,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Kassérine,Feriana,34.995919,8.559174
+93,3,아프리카,튀니지,2025/03/07,1,2024/11/25,"Ouled Fardjallah Nord, Bouhajla, Kairouan",사육,소,12,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Kairouan,Bouhajla,35.242771,10.176834
+94,3,아프리카,튀니지,2025/03/07,1,2024/12/04,"Zaafrana, Kairouan Sud, Kairouan",사육,소,17,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Kairouan,Kairouan Sud,35.563051,10.067399
+95,3,아프리카,튀니지,2025/03/07,1,2024/12/02,"Chouamekh, Bouhajla, Kairouan",사육,소,2,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Kairouan,Bouhajla,35.427481,10.01755
+96,3,아프리카,튀니지,2025/03/07,1,2024/12/07,"Souk Es-sebt, Jendouba Sud, Jendouba",사육,소,1,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Jendouba,Jendouba Sud,36.502744,8.867898
+97,3,아프리카,튀니지,2025/03/07,1,2024/12/02,"Houamdia, Tabarka, Jendouba",사육,소,2,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Jendouba,Tabarka,36.940306,8.76868
+98,3,아프리카,튀니지,2025/03/07,1,2024/12/02,"Reyhane, Tabarka, Jendouba",사육,소,6,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Jendouba,Tabarka,36.908672,8.757376
+99,3,아프리카,튀니지,2025/03/07,1,2024/11/19,"Er-Rakha, Ghardimaou, Jendouba",사육,소,5,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Jendouba,Ghardimaou,36.42852,8.442899
+100,3,아프리카,튀니지,2025/03/07,1,2024/11/29,"Er-Rakha, Ghardimaou, Jendouba",사육,소,1,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Jendouba,Ghardimaou,36.424652,8.436032
+101,3,아프리카,튀니지,2025/03/07,1,2024/11/29,"Er-Rakha, Ghardimaou, Jendouba",사육,소,7,2,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Jendouba,Ghardimaou,36.417469,8.46487
+102,3,아프리카,튀니지,2025/03/07,1,2024/11/29,"Er-Rakha, Ghardimaou, Jendouba",사육,소,3,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Jendouba,Ghardimaou,36.451326,8.432311
+103,3,아프리카,튀니지,2025/03/07,1,2024/10/21,"Er-rakha, Ghardimaou, Jendouba",사육,소,1,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Jendouba,Ghardimaou,36.451326,8.432311
+104,3,아프리카,튀니지,2025/03/07,1,2024/11/24,"Awaychia, Jendouba Sud, Jendouba",사육,소,9,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Jendouba,Jendouba Sud,36.494621,8.798787
+105,3,아프리카,튀니지,2025/03/07,1,2024/11/24,"El hania, Ghardimaou, Jendouba",사육,소,2,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Jendouba,Ghardimaou,36.452423,8.456904
+106,3,아프리카,튀니지,2025/03/07,1,2024/11/24,"Houamdia, Tabarka, Jendouba",사육,소,3,2,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Jendouba,Tabarka,36.923344,8.770845
+107,3,아프리카,튀니지,2025/03/07,1,2024/11/24,"Sehabna, Sejnane, Bizerte",사육,소,7,3,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Bizerte,Sejnane,37.100782,9.188199
+108,3,아프리카,튀니지,2025/03/07,1,2024/12/01,"Sehabna, Sejnane, Bizerte",사육,소,14,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Bizerte,Sejnane,37.099936,9.194559
+109,3,아프리카,튀니지,2025/03/07,1,2024/12/01,"Sehabna, Sejnane, Bizerte",사육,소,5,2,1,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Bizerte,Sejnane,37.096836,9.188905
+110,3,아프리카,튀니지,2025/03/07,1,2024/12/14,"Ghazia, Amdoun, Béja",사육,소,8,3,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Béja,Amdoun,36.807786,9.110287
+111,3,아프리카,튀니지,2025/03/07,1,2024/12/05,"Sidi Ahmed jedidi, Mejez El Bab, Béja",사육,소,25,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Béja,Mejez El Bab,36.677427,9.52444
+112,3,아프리카,튀니지,2025/03/07,1,2024/12/07,"Fatnassa, Nefza, Béja",사육,소,13,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Béja,Nefza,36.931636,9.208522
+113,3,아프리카,튀니지,2025/03/07,1,2024/12/19,"Es-slouguia, Testour, Béja",사육,소,12,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Béja,Testour,36.579957,9.509393
+114,3,아프리카,튀니지,2025/03/07,1,2024/12/13,"Testour, Testour, Béja",사육,소,10,2,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Béja,Testour,36.545914,9.440324
+115,3,아프리카,튀니지,2025/03/07,1,2024/12/15,"Mejez el bab, Mejez El Bab, Béja",사육,소,3,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Béja,Mejez El Bab,36.64598,9.590388
+116,6,유럽,이탈리아,2025/06/23,1,2025/06/20,"Orani, Orani, Nuoro, Sardegna",사육,소,132,40,2,38,0,0,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.30429,9.22154
+117,6,유럽,프랑스,2025/06/30,1,2025/06/23,"Chambéry, Chambéry, Savoie, Auvergne-Rhône-Alpes",사육,소,58,15,1,,,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,,,,,,,,Auvergne-Rhône-Alpes,Savoie,45.79778582,5.894221316
+118,7,유럽,이탈리아,2025/07/01,1,2025/06/22,"Orotelli, Orotelli, Nuoro, Sardegna",사육,소,33,9,3,6,,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.31139,9.09821
+119,7,유럽,이탈리아,2025/07/01,1,2025/06/25,"Porto Mantovano, Porto Mantovano, Mantua, Lombardia",사육,소,285,1,1,284,0,0,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Lombardia,Mantua,45.197941,10.814533
+120,7,유럽,이탈리아,2025/07/01,1,2025/06/26,"Orani, Orani, Nuoro, Sardegna",사육,소,34,5,0,5,,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.24291,9.22451
+121,7,유럽,이탈리아,2025/07/01,1,2025/06/27,"Bottidda, Bottidda, Sassari, Sardegna",사육,소,502,3,0,1,,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Sassari,40.392626,9.018567
+122,7,유럽,이탈리아,2025/07/01,1,2025/06/30,"Sarule, Sarule, Nuoro, Sardegna",사육,소,48,3,3,,,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.22246,9.19132
+123,7,유럽,이탈리아,2025/07/01,1,2025/06/30,"Orani, Orani, Nuoro, Sardegna",사육,소,19,2,2,,,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.2623,9.082244
+124,7,유럽,이탈리아,2025/07/02,1,2025/06/30,"Sarule, Sarule, Nuoro, Sardegna",사육,소,62,46,14,45,,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.209698,9.177213
+125,7,유럽,이탈리아,2025/07/02,1,2025/06/30,"Orotelli, Orotelli, Nuoro, Sardegna",사육,소,82,5,1,4,0,0,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.28903,9.102816
+126,7,유럽,이탈리아,2025/07/02,1,2025/06/30,"Orotelli, Orotelli, Nuoro, Sardegna",사육,소,17,3,1,16,,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.335997,9.123835
+127,7,유럽,이탈리아,2025/07/09,1,2025/07/01,"Orani, Orani, Nuoro, Sardegna",사육,소,24,6,0,6,0,0,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.24404,9.13817
+128,7,유럽,이탈리아,2025/07/09,1,2025/07/02,"Oniferi, Oniferi, Nuoro, Sardegna",사육,소,50,9,2,7,0,0,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.33445,9.15608
+129,7,유럽,이탈리아,2025/07/09,1,2025/07/07,"Orotelli, Orotelli, Nuoro, Sardegna",사육,소,114,11,2,9,0,0,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.319967,9.100123
+130,7,유럽,이탈리아,2025/07/09,1,2025/07/07,"Nuoro, Nuoro, Nuoro, Sardegna",사육,소,7,1,1,0,0,0,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.3451,9.2594
+131,7,유럽,프랑스,2025/07/11,1,2025/07/01,"Chambéry, Chambéry, Savoie, Auvergne-Rhône-Alpes",사육,소,23,5,,23,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Savoie,45.8097,5.8875
+132,7,유럽,프랑스,2025/07/11,1,2025/07/03,"Chambéry, Chambéry, Savoie, Auvergne-Rhône-Alpes",사육,소,15,1,,15,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Savoie,45.79597,5.900912
+133,7,유럽,프랑스,2025/07/11,1,2025/07/03,"Chambéry, Chambéry, Savoie, Auvergne-Rhône-Alpes",사육,소,75,1,,,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Savoie,45.799303,5.906145
+134,7,유럽,프랑스,2025/07/11,1,2025/07/03,"Chambéry, Chambéry, Savoie, Auvergne-Rhône-Alpes",사육,소,7,2,,7,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Savoie,45.8096,5.8803
+135,7,유럽,프랑스,2025/07/11,1,2025/07/03,"Chambéry, Chambéry, Savoie, Auvergne-Rhône-Alpes",사육,소,8,1,,8,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Savoie,45.809822,5.880446
+136,7,유럽,프랑스,2025/07/11,1,2025/07/03,"Chambéry, Chambéry, Savoie, Auvergne-Rhône-Alpes",사육,소,8,2,,8,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Savoie,45.8115,5.8818
+137,7,유럽,프랑스,2025/07/11,1,2025/07/05,"Chambéry, Chambéry, Savoie, Auvergne-Rhône-Alpes",사육,소,9,2,,9,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Savoie,45.80122,5.9174
+138,7,유럽,프랑스,2025/07/11,1,2025/07/05,"Chambéry, Chambéry, Savoie, Auvergne-Rhône-Alpes",사육,소,17,3,,17,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Savoie,45.8107,5.8974
+139,7,유럽,프랑스,2025/07/11,1,2025/07/06,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,31,1,,31,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.827391,5.907129
+140,7,유럽,프랑스,2025/07/11,1,2025/07/07,"Chambéry, Chambéry, Savoie, Auvergne-Rhône-Alpes",사육,소,2,1,,2,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Savoie,45.794874,5.902321
+141,7,유럽,프랑스,2025/07/11,1,2025/07/07,"Chambéry, Chambéry, Savoie, Auvergne-Rhône-Alpes",사육,소,12,2,,12,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Savoie,45.80542,5.890954
+142,7,유럽,프랑스,2025/07/11,1,2025/07/07,"Chambéry, Chambéry, Savoie, Auvergne-Rhône-Alpes",사육,소,6,1,,6,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Savoie,45.812541,5.897265
+143,7,유럽,프랑스,2025/07/11,1,2025/07/07,"Chambéry, Chambéry, Savoie, Auvergne-Rhône-Alpes",사육,소,4,1,,4,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Savoie,45.82235,5.86832
+144,7,유럽,프랑스,2025/07/11,1,2025/07/09,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,99,1,,99,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.836144,5.952319
+145,7,유럽,프랑스,2025/07/15,1,2025/07/09,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,71,1,,71,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.739081,6.309311
+146,7,유럽,프랑스,2025/07/15,1,2025/07/11,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,7,1,,7,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.932344,5.908444
+147,7,유럽,프랑스,2025/07/15,1,2025/07/12,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,14,2,,14,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.741155,6.289335
+148,7,유럽,프랑스,2025/07/15,1,2025/07/12,"Chambéry, Chambéry, Savoie, Auvergne-Rhône-Alpes",사육,소,8,1,,8,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Savoie,45.8158661,5.8933426
+149,7,유럽,프랑스,2025/07/15,1,2025/07/12,"Chambéry, Chambéry, Savoie, Auvergne-Rhône-Alpes",사육,소,10,2,,10,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Savoie,45.8188553,5.8845433
+150,7,유럽,프랑스,2025/07/15,1,2025/07/12,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,50,1,,50,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.848617,5.91182
+151,7,유럽,이탈리아,2025/07/16,1,2025/07/08,"Orani, Orani, Nuoro, Sardegna",사육,소,35,5,0,5,0,0,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.24096,9.093
+152,7,유럽,이탈리아,2025/07/16,1,2025/07/08,"Orani, Orani, Nuoro, Sardegna",사육,소,5,2,0,5,0,0,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.3121,9.2046
+153,7,유럽,이탈리아,2025/07/16,1,2025/07/08,"Oniferi, Oniferi, Nuoro, Sardegna",사육,소,25,1,0,1,0,0,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.34778,9.16083
+154,7,유럽,이탈리아,2025/07/16,1,2025/07/09,"Orotelli, Orotelli, Nuoro, Sardegna",사육,소,8,1,1,0,0,0,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.35071,9.132964
+155,7,유럽,이탈리아,2025/07/16,1,2025/07/10,"Oniferi, Oniferi, Nuoro, Sardegna",사육,소,62,3,3,0,0,0,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.28833,9.157329
+156,7,유럽,이탈리아,2025/07/16,1,2025/07/10,"Oniferi, Oniferi, Nuoro, Sardegna",사육,소,32,2,0,2,0,0,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.3399,9.167
+157,7,유럽,이탈리아,2025/07/16,1,2025/07/14,"Orani, Orani, Nuoro, Sardegna",사육,소,17,4,0,17,0,0,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.24569,9.20289
+158,7,유럽,이탈리아,2025/07/16,1,2025/07/14,"Orani, Orani, Nuoro, Sardegna",사육,소,22,1,0,0,0,0,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.260758,9.168392
+159,7,유럽,이탈리아,2025/07/16,1,2025/07/14,"Orotelli, Orotelli, Nuoro, Sardegna",사육,소,18,6,1,5,0,0,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.280527,9.116003
+160,7,유럽,이탈리아,2025/07/16,1,2025/07/14,"Orotelli, Orotelli, Nuoro, Sardegna",사육,소,5,1,0,5,0,0,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.3192,9.1386
+161,7,유럽,이탈리아,2025/07/16,1,2025/07/14,"Orotelli, Orotelli, Nuoro, Sardegna",사육,소,74,7,1,6,0,0,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.33221,9.08099
+162,7,유럽,이탈리아,2025/07/16,1,2025/07/14,"Benetutti, Benetutti, Sassari, Sardegna",사육,소,13,1,0,13,,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Sassari,40.467998,9.151939
+163,7,유럽,이탈리아,2025/07/16,1,2025/07/14,"Padru, Padru, Sassari, Sardegna",사육,소,17,1,1,16,,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Sassari,40.725228,9.485748
+164,7,유럽,프랑스,2025/07/18,1,2025/07/11,"Chambéry, Chambéry, Savoie, Auvergne-Rhône-Alpes",사육,소,30,1,,30,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Savoie,45.79867,5.896
+165,7,유럽,프랑스,2025/07/18,1,2025/07/14,"Chambéry, Chambéry, Savoie, Auvergne-Rhône-Alpes",사육,소,126,1,,126,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Savoie,45.776,5.892
+166,7,유럽,프랑스,2025/07/18,1,2025/07/14,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,71,1,,71,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.78778,6.20302
+167,7,유럽,프랑스,2025/07/18,1,2025/07/14,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,5,1,,5,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.81331,5.90718
+168,7,유럽,프랑스,2025/07/18,1,2025/07/15,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,76,1,,76,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.752725,6.271632
+169,7,유럽,프랑스,2025/07/18,1,2025/07/16,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,2,1,,2,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.746318,6.2836458
+170,7,유럽,이탈리아,2025/07/21,1,2025/07/16,"Orotelli, Orotelli, Nuoro, Sardegna",사육,소,114,3,1,0,0,0,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.304711,9.068162
+171,7,유럽,이탈리아,2025/07/21,1,2025/07/16,"Orotelli, Orotelli, Nuoro, Sardegna",사육,소,16,3,3,13,0,0,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.34618,9.110074
+172,7,유럽,프랑스,2025/07/22,1,2025/07/16,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,10,1,,10,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.730836,6.293155
+173,7,유럽,프랑스,2025/07/22,1,2025/07/16,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,10,10,,10,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.74702,6.293547
+174,7,유럽,프랑스,2025/07/22,1,2025/07/16,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,68,1,,,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.76175,6.308166
+175,7,유럽,프랑스,2025/07/22,1,2025/07/17,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,67,1,,67,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.76667,6.3
+176,7,유럽,프랑스,2025/07/22,1,2025/07/18,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,15,1,,15,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.73177,6.29517
+177,7,유럽,프랑스,2025/07/22,1,2025/07/19,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,7,1,,7,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.74702,6.293547
+178,7,아시아,캄보디아,2025/07/23,1,2025/03/11,"Pok Pen village, Mean Chey commune, Srey Santhor district, Kampong Cham province, Mean Chey, Srei Santhor, Kâmpóng Cham",사육,소,,4,4,,,-,,,,,,,,,,,,,,,Y,,Y,,,,,,,,Kâmpóng Cham,Srei Santhor,11.827794,105.066959
+179,7,아시아,캄보디아,2025/07/23,1,2025/03/21,"Ta Meun and Brothnal village, Preak Dambouk commune, Srey Santhor district, Kampong Cham province, Preaek Dambouk, Srei Santhor, Kâmpóng Cham",사육,소,,21,2,,,-,,,,,,,,,,,,,,,Y,,Y,,,,,,,,Kâmpóng Cham,Srei Santhor,11.900214,105.155589
+180,7,아시아,캄보디아,2025/07/23,1,2025/03/25,"Peam Aek commune, Aek Phnum district, Battambang province, Peam Aek, Aek Phnum, Batdâmbâng",사육,소,200,2,0,,,-,,,,,,,,,,,,,,,Y,,Y,,,,,,,,Batdâmbâng,Aek Phnum,13.178687,103.212154
+181,7,아시아,캄보디아,2025/07/23,1,2025/03/26,"Preak luong commune, Aek Phnum district, Battambang province, Preaek Luong, Aek Phnum, Batdâmbâng",사육,소,300,2,0,,,-,,,,,,,,,,,,,,,Y,,Y,,,,,,,,Batdâmbâng,Aek Phnum,13.200639,103.318353
+182,7,아시아,캄보디아,2025/07/23,1,2025/03/28,"Preaek Khpob commune, Aek Phnum district, Battambang province, Preaek Khpob, Aek Phnum, Batdâmbâng",사육,소,400,5,0,,,-,,,,,,,,,,,,,,,Y,,Y,,,,,,,,Batdâmbâng,Aek Phnum,13.154428,103.235545
+183,7,아시아,캄보디아,2025/07/23,1,2025/03/29,"Preaek Norint commune, Aeak Phnum district, Battambang province, Preaek Norint, Aek Phnum, Batdâmbâng",사육,소,150,5,0,,,-,,,,,,,,,,,,,,,Y,,Y,,,,,,,,Batdâmbâng,Aek Phnum,13.193467,103.234645
+184,7,아시아,캄보디아,2025/07/23,1,2025/03/30,"Samraong Knong commune, Aek Phnum district, Battambang province, Samraong Knong, Aek Phnum, Batdâmbâng",사육,소,100,2,0,,,-,,,,,,,,,,,,,,,Y,,Y,,,,,,,,Batdâmbâng,Aek Phnum,13.134412,103.229804
+185,7,아시아,캄보디아,2025/07/23,1,2025/04/01,"Khnar Sa village, Khnar Sa commune, Srey Santhor district, Kampong Cham province, Khnar Sa, Srei Santhor, Kâmpóng Cham",사육,소,,4,4,,,-,,,,,,,,,,,,,,,Y,,Y,,,,,,,,Kâmpóng Cham,Srei Santhor,11.795715,105.106494
+186,7,아시아,캄보디아,2025/07/23,1,2025/05/01,"Peam Aek village, Peam Aek commune, Aek Phnum district, Battambang province, Peam Aek, Aek Phnum, Batdâmbâng",사육,소,100,1,0,,,-,,,,,,,,,,,,,,,Y,,Y,,,,,,,,Batdâmbâng,Aek Phnum,13.220135,103.173358
+187,7,아시아,캄보디아,2025/07/23,1,2025/07/01,"Salang 1 village, Da commune, Memot district, Tbong Khmum province, Dar, Memot, Tbong Khmum",사육,소,,10,1,,,-,,,,,,,,,,,,,,,Y,,Y,,,,,,,,Tbong Khmum,Memot,11.791632,106.097366
+188,7,유럽,프랑스,2025/07/23,1,2025/07/21,"Albertville, Albertville, Savoie, Auvergne-Rhône-Alpes",사육,소,30,1,,30,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Savoie,45.76676,6.534592
+189,7,유럽,이탈리아,2025/07/24,1,2025/06/30,"Oniferi, Oniferi, Nuoro, Sardegna",사육,소,73,11,0,1,0,0,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.33359,9.16725
+190,7,유럽,이탈리아,2025/07/24,1,2025/07/18,"Orani, Orani, Nuoro, Sardegna",사육,소,8,3,1,7,0,0,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.24738,9.12763
+191,7,유럽,이탈리아,2025/07/24,1,2025/07/18,"Orani, Orani, Nuoro, Sardegna",사육,소,92,16,3,89,0,0,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.25499,9.12552
+192,7,유럽,이탈리아,2025/07/24,1,2025/07/18,"Orani, Orani, Nuoro, Sardegna",사육,소,87,4,2,2,0,0,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.25851,9.20678
+193,7,유럽,이탈리아,2025/07/24,1,2025/07/18,"Orani, Orani, Nuoro, Sardegna",사육,소,92,16,3,13,0,0,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.28341,9.22293
+194,7,유럽,이탈리아,2025/07/24,1,2025/07/18,"Orotelli, Orotelli, Nuoro, Sardegna",사육,소,48,2,0,0,0,0,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.306593,9.071998
+195,7,유럽,이탈리아,2025/07/24,1,2025/07/21,"Orani, Orani, Nuoro, Sardegna",사육,소,52,1,0,1,0,0,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.30125,9.04641
+196,7,유럽,이탈리아,2025/07/24,1,2025/07/21,"Orani, Orani, Nuoro, Sardegna",사육,소,70,11,5,6,0,0,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.3092,9.2079
+197,7,유럽,프랑스,2025/07/24,1,2025/07/21,"Chambéry, Chambéry, Savoie, Auvergne-Rhône-Alpes",사육,소,21,2,,21,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Savoie,45.78639,5.945
+198,7,유럽,프랑스,2025/07/24,1,2025/07/22,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,1,1,,1,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.81849,5.906705
+199,7,유럽,프랑스,2025/07/24,1,2025/07/22,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,7,1,,7,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.8557,5.98299
+200,7,유럽,프랑스,2025/07/29,1,2025/07/20,"Chambéry, Chambéry, Savoie, Auvergne-Rhône-Alpes",사육,소,18,1,,18,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Savoie,45.77312,5.90383
+201,7,유럽,프랑스,2025/07/29,1,2025/07/22,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,28,1,,28,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.72769,6.26876
+202,7,유럽,프랑스,2025/07/29,1,2025/07/22,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,2,1,,2,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.833328,5.93333
+203,7,유럽,프랑스,2025/07/29,1,2025/07/23,"Chambéry, Chambéry, Savoie, Auvergne-Rhône-Alpes",사육,소,9,1,,9,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Savoie,45.7855514,5.9450633
+204,7,유럽,프랑스,2025/07/29,1,2025/07/23,"Chambéry, Chambéry, Savoie, Auvergne-Rhône-Alpes",사육,소,3,1,,3,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Savoie,45.7855514,5.9450633
+205,7,유럽,프랑스,2025/07/29,1,2025/07/23,"Chambéry, Chambéry, Savoie, Auvergne-Rhône-Alpes",사육,소,10,1,,10,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Savoie,45.7855514,5.9450633
+206,7,유럽,프랑스,2025/07/29,1,2025/07/23,"Chambéry, Chambéry, Savoie, Auvergne-Rhône-Alpes",사육,소,8,1,,8,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Savoie,45.80304,5.90399
+207,7,유럽,프랑스,2025/07/29,1,2025/07/23,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,3,2,,3,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.835855,5.886704
+208,7,유럽,프랑스,2025/07/29,1,2025/07/24,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,3,1,,3,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.8310824,5.8913021
+209,7,유럽,프랑스,2025/07/29,1,2025/07/25,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,13,2,,13,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.8295709,5.8809991
+210,7,유럽,이탈리아,2025/07/30,1,2025/07/25,"Orani, Orani, Nuoro, Sardegna",사육,소,22,3,0,0,0,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.25888,9.2727
+211,7,유럽,이탈리아,2025/07/30,1,2025/07/25,"Orani, Orani, Nuoro, Sardegna",사육,소,65,1,0,0,0,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.26065,9.27494
+212,7,유럽,이탈리아,2025/07/30,1,2025/07/25,"Benetutti, Benetutti, Sassari, Sardegna",사육,소,8,1,0,8,0,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Sassari,40.397264,9.172869
+213,7,유럽,프랑스,2025/07/30,1,2025/07/23,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,21,1,,21,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.81210492,5.924742128
+214,7,유럽,프랑스,2025/07/30,1,2025/07/25,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,5,1,,5,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.74020467,6.305958214
+215,7,유럽,프랑스,2025/07/30,1,2025/07/26,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,50,2,,50,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.74966268,6.31725895
+216,7,유럽,프랑스,2025/07/30,1,2025/07/26,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,6,1,,6,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.78778,6.20302
+217,8,유럽,프랑스,2025/08/01,1,2025/07/27,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,6,2,,6,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.77004639,6.251743623
+218,8,유럽,프랑스,2025/08/01,1,2025/07/28,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,10,1,,,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.77240558,6.253055142
+219,8,유럽,프랑스,2025/08/01,1,2025/07/29,"Chambéry, Chambéry, Savoie, Auvergne-Rhône-Alpes",사육,소,70,2,,70,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Savoie,45.78578714,5.891339541
+220,8,유럽,프랑스,2025/08/01,1,2025/07/29,"Chambéry, Chambéry, Savoie, Auvergne-Rhône-Alpes",사육,소,8,2,,8,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Savoie,45.78600357,5.894707208
+221,8,유럽,프랑스,2025/08/01,1,2025/07/29,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,2,1,,2,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.84573229,5.900009986
+222,8,유럽,프랑스,2025/08/01,1,2025/07/30,"Chambéry, Chambéry, Savoie, Auvergne-Rhône-Alpes",사육,소,7,1,,7,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Savoie,45.8024054,5.8952329
+223,8,유럽,이탈리아,2025/08/05,1,2025/07/28,"Orotelli, Orotelli, Nuoro, Sardegna",사육,소,64,2,0,0,0,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.29275,9.116667
+224,8,유럽,이탈리아,2025/08/05,1,2025/07/28,"Orotelli, Orotelli, Nuoro, Sardegna",사육,소,18,1,0,1,0,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.30794,9.07156
+225,8,유럽,이탈리아,2025/08/05,1,2025/07/29,"Nuoro, Nuoro, Nuoro, Sardegna",사육,소,8,1,0,8,0,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.28273,9.26401
+226,8,유럽,이탈리아,2025/08/05,1,2025/07/29,"Nuoro, Nuoro, Nuoro, Sardegna",사육,소,9,3,2,7,0,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.284756,9.303752
+227,8,유럽,이탈리아,2025/08/05,1,2025/07/31,"Sarule, Sarule, Nuoro, Sardegna",사육,소,38,2,0,38,0,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.20129,9.18471
+228,8,유럽,이탈리아,2025/08/05,1,2025/07/31,"Sarule, Sarule, Nuoro, Sardegna",사육,소,23,1,0,0,0,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.23263,9.15369
+229,8,유럽,이탈리아,2025/08/05,1,2025/07/31,"Orotelli, Orotelli, Nuoro, Sardegna",사육,소,9,2,1,1,0,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.32509,9.133142
+230,8,유럽,프랑스,2025/08/04,1,2025/07/26,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,3,1,,3,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.74882257,6.316325242
+231,8,유럽,프랑스,2025/08/04,1,2025/07/29,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,65,2,,65,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.82837791,5.896239263
+232,8,유럽,프랑스,2025/08/04,1,2025/07/31,"Chambéry, Chambéry, Savoie, Auvergne-Rhône-Alpes",사육,소,6,2,,6,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Savoie,45.802483,5.8697321
+233,8,유럽,프랑스,2025/08/04,1,2025/08/01,"Chambéry, Chambéry, Savoie, Auvergne-Rhône-Alpes",사육,소,15,1,,,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Savoie,45.79958024,5.894266303
+234,8,유럽,프랑스,2025/08/06,1,2025/07/30,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,10,1,,10,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.74716211,6.296467744
+235,8,유럽,프랑스,2025/08/06,1,2025/07/30,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,6,3,,6,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.84329668,5.891533748
+236,8,유럽,프랑스,2025/08/06,1,2025/07/31,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,67,1,,67,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.81431544,5.913948083
+237,8,유럽,프랑스,2025/08/06,1,2025/08/01,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,2,2,,2,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.83212047,5.902087092
+238,8,유럽,프랑스,2025/08/06,1,2025/08/02,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,41,1,,41,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.87510225,5.912438376
+239,8,유럽,프랑스,2025/08/06,1,2025/08/03,"Chambéry, Chambéry, Savoie, Auvergne-Rhône-Alpes",사육,소,12,1,,12,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Savoie,45.79897278,5.906319279
+240,8,유럽,이탈리아,2025/08/08,1,2025/08/01,"Orani, Orani, Nuoro, Sardegna",사육,소,4,1,1,3,,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.27775,9.03683
+241,8,유럽,이탈리아,2025/08/08,1,2025/08/04,"Burgos, Burgos, Sassari, Sardegna",사육,소,24,2,,2,,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Sassari,40.38841,9.00316
+242,8,유럽,이탈리아,2025/08/08,1,2025/08/04,"Benetutti, Benetutti, Sassari, Sardegna",사육,소,54,1,,54,,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Sassari,40.400795,9.171361
+243,8,유럽,이탈리아,2025/08/08,1,2025/08/05,"Oniferi, Oniferi, Nuoro, Sardegna",사육,소,45,5,3,,,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.30071,9.15876
+244,8,유럽,이탈리아,2025/08/08,1,2025/08/05,"Orani, Orani, Nuoro, Sardegna",사육,소,1,1,,1,,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.315906,9.213706
+245,8,유럽,프랑스,2025/08/11,1,2025/08/02,"Chambéry, Chambéry, Savoie, Auvergne-Rhône-Alpes",사육,소,7,1,,7,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Savoie,45.8188709,5.900636992
+246,8,유럽,프랑스,2025/08/11,1,2025/08/03,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,14,1,,14,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.72827995,6.266423365
+247,8,유럽,프랑스,2025/08/11,1,2025/08/05,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,9,4,,9,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.841861,5.915771
+248,8,유럽,프랑스,2025/08/11,1,2025/08/06,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,2,1,,2,,-,Y,,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.83306622,5.905890152
+249,8,유럽,프랑스,2025/08/13,1,2025/08/05,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,9,1,,9,,-,Y,Y,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.704781,6.304378
+250,8,유럽,프랑스,2025/08/13,1,2025/08/07,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,5,1,,5,,-,Y,Y,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.82634926,5.912668123
+251,8,유럽,프랑스,2025/08/13,1,2025/08/09,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,3,1,,3,,-,Y,Y,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.84897774,5.900997813
+252,8,유럽,이탈리아,2025/08/16,1,2025/08/11,"Cuglieri, Cuglieri, Oristano, Sardegna",사육,소,38,5,4,33,,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Oristano,40.1822,8.5336
+253,8,유럽,프랑스,2025/08/18,1,2025/08/12,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,15,1,,15,,-,Y,Y,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.7272203,6.261841
+254,8,유럽,이탈리아,2025/08/19,1,2025/08/13,"Olzai, Olzai, Nuoro, Sardegna",사육,소,11,7,1,10,,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.174537,9.115053
+255,8,유럽,프랑스,2025/08/22,1,2025/08/15,"Chambéry, Chambéry, Savoie, Auvergne-Rhône-Alpes",사육,소,18,3,,18,,-,Y,Y,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Savoie,45.83245897,5.853166127
+256,8,유럽,프랑스,2025/08/25,1,2025/08/21,"Belley, Belley, Ain, Auvergne-Rhône-Alpes",사육,소,85,1,,85,,-,Y,Y,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Ain,45.88351127,5.764516912
+257,8,아프리카,튀니지,2025/08/26,1,2025/01/05,"soukra, Soukra, Ariana",사육,소,13,2,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Ariana,Soukra,36.886348,10.215644
+258,8,아프리카,튀니지,2025/08/26,1,2025/01/05,"Soukra, Soukra, Ariana",사육,소,13,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Ariana,Soukra,36.88645,10.215523
+259,8,아프리카,튀니지,2025/08/26,1,2025/01/05,"Raoued, Raoued, Ariana",사육,소,2,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Ariana,Raoued,36.959761,10.199413
+260,8,아프리카,튀니지,2025/08/26,1,2025/01/09,"El hkaima Est, Ksour Essef, Mahdia",사육,소,3,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Mahdia,Ksour Essef,35.468139,10.894417
+261,8,아프리카,튀니지,2025/08/26,1,2025/01/13,"Ghayadha, Nefza, Béja",사육,소,8,2,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Béja,Nefza,36.94554,9.169453
+262,8,아프리카,튀니지,2025/08/26,1,2025/02/03,"Essahla, Sidi Ali Ben Aoun, Sidi Bou Zid",사육,소,6,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Sidi Bou Zid,Sidi Ali Ben Aoun,34.8355,9.115387
+263,8,아프리카,튀니지,2025/08/26,1,2025/02/09,"Romdhania, Amdoun, Béja",사육,소,7,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Béja,Amdoun,36.763514,9.10253
+264,8,아프리카,튀니지,2025/08/26,1,2025/02/22,"Zahret medyen, Amdoun, Béja",사육,소,12,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Béja,Amdoun,36.758452,9.08937
+265,8,아프리카,튀니지,2025/08/26,1,2025/04/07,"el hajeb, Sfax Sud, Sfax",사육,소,111,1,1,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Sfax,Sfax Sud,34.668948,10.627921
+266,8,아프리카,튀니지,2025/08/26,1,2025/04/16,"Fahs, Fahs, Zaghouan",사육,소,6,2,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Zaghouan,Fahs,36.366716,9.909361
+267,8,아프리카,튀니지,2025/08/26,1,2025/04/19,"Chaleb, Menzel Chaker, Sfax",사육,소,20,10,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Sfax,Menzel Chaker,35.070484,10.390896
+268,8,아프리카,튀니지,2025/08/26,1,2025/04/20,"Chebada, Fouchana, Ben Arous (Tunis Sud)",사육,소,7,4,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Ben Arous (Tunis Sud),Fouchana,36.698391,10.175506
+269,8,아프리카,튀니지,2025/08/26,1,2025/04/20,"el melaha, Tebourba, Manubah",사육,소,11,4,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Manubah,Tebourba,36.839082,9.590315
+270,8,아프리카,튀니지,2025/08/26,1,2025/04/21,"Chaleb, Menzel Chaker, Sfax",사육,소,19,2,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Sfax,Menzel Chaker,35.070484,10.390896
+271,8,아프리카,튀니지,2025/08/26,1,2025/04/22,"Bach hamba, Utique, Bizerte",사육,소,11,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Bizerte,Utique,36.970556,9.960551
+272,8,아프리카,튀니지,2025/08/26,1,2025/04/23,"Cap Negro, Nefza, Béja",사육,소,2,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Béja,Nefza,37.102084,8.98572
+273,8,아프리카,튀니지,2025/08/26,1,2025/04/25,"Chela, Boumhel, Ben Arous (Tunis Sud)",사육,소,2,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Ben Arous (Tunis Sud),Boumhel,36.709483,10.300121
+274,8,아프리카,튀니지,2025/08/26,1,2025/04/25,"elmajless, Amdoun, Béja",사육,소,17,2,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Béja,Amdoun,36.7733,9.076659
+275,8,아프리카,튀니지,2025/08/26,1,2025/04/25,"El melaha, Tebourba, Manubah",사육,소,11,3,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Manubah,Tebourba,36.839884,9.590573
+276,8,아프리카,튀니지,2025/08/26,1,2025/04/30,"El melaha, Tebourba, Manubah",사육,소,6,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Manubah,Tebourba,36.838949,9.593244
+277,8,아프리카,튀니지,2025/08/26,1,2025/04/30,"Sidi othmen, Utique, Bizerte",사육,소,5,4,2,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Bizerte,Utique,36.96338,9.924941
+278,8,아프리카,튀니지,2025/08/26,1,2025/05/01,"manouba, Manouba, Manubah",사육,소,2,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Manubah,Manouba,36.823939,10.064167
+279,8,아프리카,튀니지,2025/08/26,1,2025/05/02,"Bach hamba, Utique, Bizerte",사육,소,14,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Bizerte,Utique,36.961697,9.956708
+280,8,아프리카,튀니지,2025/08/26,1,2025/05/02,"Ain Ghlel, Utique, Bizerte",사육,소,3,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Bizerte,Utique,37.009019,9.864461
+281,8,아프리카,튀니지,2025/08/26,1,2025/05/03,"Kalaat El Andalous Est, Kalaat El Andalous, Ariana",사육,소,11,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Ariana,Kalaat El Andalous,37.057898,10.133103
+282,8,아프리카,튀니지,2025/08/26,1,2025/05/04,"Kaalat el andalous Est, Kalaat El Andalous, Ariana",사육,소,4,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Ariana,Kalaat El Andalous,37.059909,10.135721
+283,8,아프리카,튀니지,2025/08/26,1,2025/05/12,"Borj el amri, Borj El Amri, Manubah",사육,소,5,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Manubah,Borj El Amri,36.717311,9.864654
+284,8,아프리카,튀니지,2025/08/26,1,2025/05/15,"Es-Sloughia, Testour, Béja",사육,소,3,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Béja,Testour,36.577383,9.511739
+285,8,아프리카,튀니지,2025/08/26,1,2025/05/16,"Naassen, Fouchana, Ben Arous (Tunis Sud)",사육,소,6,2,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Ben Arous (Tunis Sud),Fouchana,36.709658,10.166487
+286,8,아프리카,튀니지,2025/08/26,1,2025/05/16,"Bou Hanach, Kalaat El Andalous, Ariana",사육,소,5,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Ariana,Kalaat El Andalous,36.9784,10.134456
+287,8,아프리카,튀니지,2025/08/26,1,2025/05/19,"kabouti, Mornag, Ben Arous (Tunis Sud)",사육,소,4,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Ben Arous (Tunis Sud),Mornag,36.678207,10.291308
+288,8,아프리카,튀니지,2025/08/26,1,2025/05/19,"Bejaoua, Sidi Thabet, Ariana",사육,소,10,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Ariana,Sidi Thabet,36.889159,10.010745
+289,8,아프리카,튀니지,2025/08/26,1,2025/05/20,"Essalem, Mornag, Ben Arous (Tunis Sud)",사육,소,4,3,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Ben Arous (Tunis Sud),Mornag,36.624997,10.227595
+290,8,아프리카,튀니지,2025/08/26,1,2025/05/22,"Deghafla Est, Saouaf, Zaghouan",사육,소,4,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Zaghouan,Saouaf,36.176234,10.107549
+291,8,아프리카,튀니지,2025/08/26,1,2025/05/22,"El kessibi, Mornag, Ben Arous (Tunis Sud)",사육,소,9,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Ben Arous (Tunis Sud),Mornag,36.613736,10.274483
+292,8,아프리카,튀니지,2025/08/26,1,2025/05/25,"El Heri, Mejez El Bab, Béja",사육,소,6,3,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Béja,Mejez El Bab,36.641747,9.623254
+293,8,아프리카,튀니지,2025/08/26,1,2025/05/25,"Chotrana, Soukra, Ariana",사육,소,36,4,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Ariana,Soukra,36.898229,10.220771
+294,8,아프리카,튀니지,2025/08/26,1,2025/05/25,"Kalaat El Andalous Est, Kalaat El Andalous, Ariana",사육,소,16,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Ariana,Kalaat El Andalous,37.042662,10.165344
+295,8,아프리카,튀니지,2025/08/26,1,2025/05/30,"Mornaguia, Mornaguia, Manubah",사육,소,8,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Manubah,Mornaguia,36.753233,10.021347
+296,8,아프리카,튀니지,2025/08/26,1,2025/06/05,"Ouled Selama, Testour, Béja",사육,소,11,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Béja,Testour,36.514953,9.484521
+297,8,아프리카,튀니지,2025/08/26,1,2025/06/07,"Mezougha, Testour, Béja",사육,소,8,2,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Béja,Testour,36.619746,9.346312
+298,8,아프리카,튀니지,2025/08/26,1,2025/06/09,"El Gammardhi, Goubellat, Béja",사육,소,12,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Béja,Goubellat,36.5162,9.667738
+299,8,아프리카,튀니지,2025/08/26,1,2025/06/09,"Hidouss, Mejez El Bab, Béja",사육,소,10,2,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Béja,Mejez El Bab,36.74346,9.590416
+300,8,아프리카,튀니지,2025/08/26,1,2025/06/12,"Hidouss, Mejez El Bab, Béja",사육,소,11,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Béja,Mejez El Bab,36.741155,9.588919
+301,8,아프리카,튀니지,2025/08/26,1,2025/07/01,"Zeldou, Testour, Béja",사육,소,8,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Béja,Testour,36.570638,9.382094
+302,8,아프리카,튀니지,2025/08/26,1,2025/07/27,"Zeldou, Testour, Béja",사육,소,9,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Béja,Testour,36.569655,9.383523
+303,8,아프리카,튀니지,2025/08/26,1,2025/07/29,"zeldou, Testour, Béja",사육,소,3,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Béja,Testour,36.574737,9.390056
+304,8,아프리카,튀니지,2025/08/26,1,2025/08/03,"Cité 26 février, Testour, Béja",사육,소,3,1,0,0,0,-,Y,Y,,,,,,,,,,,,Y,,,Y,,,,,,,,Béja,Testour,36.547478,9.444491
+305,9,유럽,프랑스,2025/09/08,0,2025/07/03,"Chambéry, Chambéry, Savoie, Auvergne-Rhône-Alpes",사육,소,24,,,24,,-,Y,Y,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Savoie,45.799303,5.906145
+306,9,유럽,프랑스,2025/09/08,0,2025/07/16,"Annecy, Annecy, Haute-Savoie, Auvergne-Rhône-Alpes",사육,소,5,,,5,,-,Y,Y,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Haute-Savoie,45.76175,6.308166
+307,9,유럽,프랑스,2025/09/08,0,2025/08/01,"Chambéry, Chambéry, Savoie, Auvergne-Rhône-Alpes",사육,소,1,,,1,,-,Y,Y,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Savoie,45.79958024,5.894266303
+308,9,유럽,프랑스,2025/09/08,1,2025/09/05,"Nantua, Nantua, Ain, Auvergne-Rhône-Alpes",사육,소,5,5,,5,,-,Y,Y,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Ain,46.04543194,5.800430031
+309,9,유럽,이탈리아,2025/09/10,1,2025/09/01,"Olzai, Olzai, Nuoro, Sardegna",사육,소,25,1,0,25,0,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.206077,9.135627
+310,9,유럽,이탈리아,2025/09/10,1,2025/09/02,"Bono, Bono, Sassari, Sardegna",사육,소,38,2,0,0,0,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Sassari,40.3627,9.13178
+311,9,유럽,이탈리아,2025/09/10,1,2025/09/08,"Bono, Bono, Sassari, Sardegna",사육,소,30,8,3,0,0,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Sassari,40.388023,9.08036
+312,9,유럽,이탈리아,2025/09/16,1,2025/08/26,"Benetutti, Benetutti, Sassari, Sardegna",사육,소,75,11,0,0,0,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Sassari,40.414723,9.128721
+313,9,유럽,이탈리아,2025/09/16,1,2025/08/29,"Bitti, Bitti, Nuoro, Sardegna",사육,소,5,1,1,3,0,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.528846,9.316482
+314,9,유럽,이탈리아,2025/09/16,1,2025/08/29,"Bitti, Bitti, Nuoro, Sardegna",사육,소,6,1,1,5,0,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.529482,9.309159
+315,9,유럽,이탈리아,2025/09/16,1,2025/09/05,"Orani, Orani, Nuoro, Sardegna",사육,소,6,1,0,6,0,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.24868,9.1688
+316,9,유럽,이탈리아,2025/09/16,1,2025/09/09,"Orgosolo, Orgosolo, Nuoro, Sardegna",사육,소,5,4,0,5,0,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.25731,9.31228
+317,9,유럽,이탈리아,2025/09/16,1,2025/09/09,"Buddusò, Buddusò, Sassari, Sardegna",사육,소,6,1,0,6,0,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Sassari,40.56471,9.30423
+318,9,유럽,프랑스,2025/09/20,1,2025/09/17,"Lyon, Lyon, Rhône, Auvergne-Rhône-Alpes",사육,소,171,80,,171,,-,Y,Y,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Rhône,45.72674044,4.476997752
+319,9,유럽,이탈리아,2025/09/24,1,2025/09/16,"Buddusò, Buddusò, Sassari, Sardegna",사육,소,32,3,1,31,0,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Sassari,40.58388,9.3029
+320,10,유럽,이탈리아,2025/10/01,1,2025/09/08,"Dorgali, Dorgali, Nuoro, Sardegna",사육,소,15,2,2,,,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.3283,9.5911
+321,10,유럽,이탈리아,2025/10/01,1,2025/09/17,"Bitti, Bitti, Nuoro, Sardegna",사육,소,6,2,,6,,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.547176,9.337898
+322,10,유럽,이탈리아,2025/10/01,1,2025/09/18,"Nuoro, Nuoro, Nuoro, Sardegna",사육,소,41,10,,41,,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.392806,9.196006
+323,10,유럽,스페인,2025/10/04,1,2025/10/01,"ALT EMPORDA (FIGUERES), ALT EMPORDA (FIGUERES), GIRONA, Cataluña",사육,소,123,3,0,,,-,,,,,,Y,,,Y,,,,,Y,Y,,Y,,,,,,,Y,Cataluña,GIRONA,42.2481926,3.0622671
+324,10,유럽,스페인,2025/10/06,1,2025/10/04,"PERALADA, ALT EMPORDA (FIGUERES), GIRONA, Cataluña",사육,소,270,4,0,,,-,,,,,,Y,,,Y,,,,,Y,Y,,Y,,,,,,,Y,Cataluña,GIRONA,42.2883682,3.0464172
+325,10,유럽,스페인,2025/10/08,1,2025/10/05,"CASTELLÓ D'EMPÚRIES, ALT EMPORDA (FIGUERES), GIRONA, Cataluña",사육,소,262,3,0,,,-,,,,,,Y,,,Y,,,,,Y,Y,,Y,,,,,,,Y,Cataluña,GIRONA,42.2415929,3.0709423
+326,10,유럽,프랑스,2025/10/13,1,2025/10/06,"Dole, Dole, Jura, Bourgogne-Franche-Comté",사육,소,96,5,1,,,-,Y,Y,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Bourgogne-Franche-Comté,Jura,47.00450194,5.7322602
+327,10,유럽,스페인,2025/10/10,1,2025/10/04,"PERALADA, ALT EMPORDA (FIGUERES), GIRONA, Cataluña",사육,소,8,3,0,,,-,,,,,,Y,,,Y,,,,,Y,Y,,Y,,,,,,,Y,Cataluña,GIRONA,42.2885875,3.0585562
+328,10,유럽,스페인,2025/10/10,1,2025/10/04,"PEDRET I MARZÀ, ALT EMPORDA (FIGUERES), GIRONA, Cataluña",사육,소,25,2,0,,,-,,,,,,Y,,,Y,,,,,Y,Y,,Y,,,,,,,Y,Cataluña,GIRONA,42.3039561,3.06794
+329,10,유럽,스페인,2025/10/14,1,2025/10/06,"PALAU-SAAVEDRA, ALT EMPORDA (FIGUERES), GIRONA, Cataluña",사육,소,575,7,0,,,-,,,,,,Y,,,Y,,,,,Y,Y,,Y,,,,,,,Y,Cataluña,GIRONA,42.2795938,3.133496
+330,10,유럽,스페인,2025/10/14,1,2025/10/07,"PEDRET I MARZÀ, ALT EMPORDA (FIGUERES), GIRONA, Cataluña",사육,소,158,8,0,,,-,,,,,,Y,,,Y,,,,,Y,Y,,Y,,,,,,,Y,Cataluña,GIRONA,42.309629,3.0678687
+331,10,유럽,스페인,2025/10/14,1,2025/10/08,"VILABERTRAN, ALT EMPORDA (FIGUERES), GIRONA, Cataluña",사육,소,41,1,0,,,-,,,,,,Y,,,Y,,,,,Y,Y,,Y,,,,,,,Y,Cataluña,GIRONA,42.2887153,2.976996
+332,10,유럽,스페인,2025/10/14,1,2025/10/09,"PERALADA, ALT EMPORDA (FIGUERES), GIRONA, Cataluña",사육,소,17,2,0,,,-,,,,,,Y,,,Y,,,,,Y,Y,,Y,,,,,,,Y,Cataluña,GIRONA,42.2783193,3.0727663
+333,10,유럽,프랑스,2025/10/15,1,2025/10/11,"Dole, Dole, Jura, Bourgogne-Franche-Comté",사육,소,76,4,,,,-,Y,Y,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Bourgogne-Franche-Comté,Jura,47.00484868,5.736577742
+334,10,유럽,프랑스,2025/10/15,1,2025/10/13,"Bourg-en-Bresse, Bourg-en-Bresse, Ain, Auvergne-Rhône-Alpes",사육,소,181,4,,,,-,Y,Y,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Auvergne-Rhône-Alpes,Ain,46.1599252,5.027928379
+335,10,유럽,프랑스,2025/10/15,1,2025/10/13,"Dole, Dole, Jura, Bourgogne-Franche-Comté",사육,소,91,1,,,,-,Y,Y,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Bourgogne-Franche-Comté,Jura,47.00416343,5.740313191
+336,9,유럽,이탈리아,2025/9/3,1,2025/8/26,"Benetutti, Benetutti, Sassari, Sardegna",사육,소,9,3,-,9,-,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Sassari,40.41825,9.14141
+337,10,유럽,이탈리아,2025/10/9,1,2025/10/3,"Orgosolo, Orgosolo, Nuoro, Sardegna",사육,소,140,11,2,138,0,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.139252,9.329541
+338,10,유럽,이탈리아,2025/10/9,1,2025/9/24,"Mamoiada, Mamoiada, Nuoro, Sardegna",사육,소,8,1,1,7,0,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.23846,9.28072
+339,10,유럽,이탈리아,2025/10/9,1,2025/9/30,"Orgosolo, Orgosolo, Nuoro, Sardegna",사육,소,35,3,0,35,0,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.236442,9.358689
+340,10,유럽,이탈리아,2025/10/9,1,2025/9/22,"Dorgali, Dorgali, Nuoro, Sardegna",사육,소,44,7,2,42,0,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.34821,9.59222
+341,10,유럽,이탈리아,2025/10/17,1,2025/10/01,"Orgosolo, Orgosolo, Nuoro, Sardegna",사육,소,5,2,1,4,,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.24263,9.33967
+342,10,유럽,이탈리아,2025/10/17,1,2025/10/01,"Orani, Orani, Nuoro, Sardegna",사육,소,11,3,2,9,0,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.258,9.2563
+343,10,유럽,이탈리아,2025/10/17,1,2025/10/09,"Orgosolo, Orgosolo, Nuoro, Sardegna",사육,소,82,11,0,3,0,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.200046,9.340078
+344,10,유럽,스페인,2025/10/16,1,2025/10/09,"CASSÀ DE LA SELVA, GIRONES (GIRONA), GIRONA, Cataluña",사육,소,151,4,0,,,-,,,,,,Y,,,Y,,,,,Y,Y,,Y,,,,,,,Y,Cataluña,GIRONA,41.8730417,2.8638426
+345,10,아시아,캄보디아,2025/10/20,1,2025/07/07,"Kokir commune, Kokir, Memot, Tbong Khmum",사육,소,96,10,1,,,-,,,,,,,,,,,,,,,Y,,Y,,,,,,,,Tbong Khmum,Memot,11.895679,106.121375
+346,10,아시아,캄보디아,2025/10/20,1,2025/07/16,"Memong commune, Memong, Memot, Tbong Khmum",사육,소,78,6,0,,,-,,,,,,,,,,,,,,,Y,,Y,,,,,,,,Tbong Khmum,Memot,11.90896,106.187928
+347,10,아시아,캄보디아,2025/10/20,1,2025/08/01,"Srak commune, Memot district, Srak, Kampong Siem, Kâmpóng Cham",사육,소,,4,0,,,-,,,,,,,,,,,,,,,Y,,Y,,,,,,,,Kâmpóng Cham,Kampong Siem,12.127181,105.425673
+348,10,아시아,캄보디아,2025/10/20,1,2025/08/18,"Da commune, Memot distirct, Tuek Chrov, Dambae, Tbong Khmum",사육,소,104,50,1,,,-,,,,,,,,,,,,,,,Y,,Y,,,,,,,,Tbong Khmum,Dambae,11.8875,105.9048
+349,10,아시아,캄보디아,2025/10/20,1,2025/08/31,"Preak Luong commune, Preaek Luong, Aek Phnum, Batdâmbâng",사육,소,,3,0,,,-,,,,,,,,,,,,,,,Y,,Y,,,,,,,,Batdâmbâng,Aek Phnum,13.200576,103.318095
+350,10,아시아,캄보디아,2025/10/20,1,2025/09/01,"Preak Norin commune, Preaek Norint, Aek Phnum, Batdâmbâng",사육,소,,1,0,,,-,,,,,,,,,,,,,,,Y,,Y,,,,,,,,Batdâmbâng,Aek Phnum,13.219203,103.269665
+351,10,유럽,프랑스,2025/10/17,1,2025/10/13,"Céret, Céret, Pyrénées-Orientales, Occitanie",사육,소,13,2,,,,-,Y,Y,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Occitanie,Pyrénées-Orientales,42.53210453,2.710085351
+352,10,유럽,프랑스,2025/10/17,1,2025/10/13,"Céret, Céret, Pyrénées-Orientales, Occitanie",사육,소,37,1,,,,-,Y,Y,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Occitanie,Pyrénées-Orientales,42.5439926,2.592868607
+353,10,유럽,프랑스,2025/10/17,1,2025/10/14,"Prades, Prades, Pyrénées-Orientales, Occitanie",사육,소,82,1,,,,-,Y,Y,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Occitanie,Pyrénées-Orientales,42.51827782,2.497947201
+354,10,유럽,이탈리아,2025/10/22,1,2025/10/11,"Urzulei, Urzulei, Nuoro, Sardegna",사육,소,80,2,0,80,0,0,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.165,9.488219
+355,10,유럽,스페인,2025/10/21,1,2025/10/13,"VILA-SACRA, ALT EMPORDA (FIGUERES), GIRONA, Cataluña",사육,소,209,1,0,,,-,,Y,,,,Y,,,Y,,,,,Y,Y,,Y,,,,,,,Y,Cataluña,GIRONA,42.2602578,3.0237239
+356,10,유럽,스페인,2025/10/21,1,2025/10/13,"PERALADA, ALT EMPORDA (FIGUERES), GIRONA, Cataluña",사육,소,231,1,0,,,-,,Y,,,,Y,,,Y,,,,,Y,Y,,Y,,,,,,,Y,Cataluña,GIRONA,42.2877897,3.0240862
+357,10,유럽,스페인,2025/10/21,1,2025/10/13,"PEDRET I MARZÀ, ALT EMPORDA (FIGUERES), GIRONA, Cataluña",사육,소,43,7,0,,,-,,Y,,,,Y,,,Y,,,,,Y,Y,,Y,,,,,,,Y,Cataluña,GIRONA,42.2999068,3.0862939
+358,10,유럽,스페인,2025/10/21,1,2025/10/15,"PAU, ALT EMPORDA (FIGUERES), GIRONA, Cataluña",사육,소,103,1,0,,,-,,Y,,,,Y,,,Y,,,,,Y,Y,,Y,,,,,,,Y,Cataluña,GIRONA,42.2989979,3.0990524
+359,10,유럽,스페인,2025/10/21,1,2025/10/16,"CASTELLÓ D'EMPURIES, ALT EMPORDA (FIGUERES), GIRONA, Cataluña",사육,소,106,1,0,,,-,,Y,,,,Y,,,Y,,,,,Y,Y,,Y,,,,,,,Y,Cataluña,GIRONA,42.2248531,3.083086
+360,10,유럽,스페인,2025/10/21,1,2025/10/16,"CASTELLÓ D'EMPURIES, ALT EMPORDA (FIGUERES), GIRONA, Cataluña",사육,소,110,1,0,,,-,,Y,,,,Y,,,Y,,,,,Y,Y,,Y,,,,,,,Y,Cataluña,GIRONA,42.2369977,3.0981946
+361,10,유럽,스페인,2025/10/21,1,2025/10/17,"SIURANA, ALT EMPORDA (FIGUERES), GIRONA, Cataluña",사육,소,63,2,0,,,-,,Y,,,,Y,,,Y,,,,,Y,Y,,Y,,,,,,,Y,Cataluña,GIRONA,42.2190764,3.0073509
+362,10,유럽,프랑스,2025/10/23,1,2025/10/18,"Céret, Céret, Pyrénées-Orientales, Occitanie",사육,소,51,1,,,,-,Y,Y,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Occitanie,Pyrénées-Orientales,42.44015854,2.535608523
+363,10,유럽,프랑스,2025/10/23,1,2025/10/18,"Céret, Céret, Pyrénées-Orientales, Occitanie",사육,소,7,2,,,,-,Y,Y,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Occitanie,Pyrénées-Orientales,42.54532559,2.592460446
+364,10,유럽,프랑스,2025/10/23,1,2025/10/18,"Prades, Prades, Pyrénées-Orientales, Occitanie",사육,소,11,1,,,,-,Y,Y,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Occitanie,Pyrénées-Orientales,42.57795361,2.523485859
+365,10,유럽,프랑스,2025/10/23,1,2025/10/18,"Dole, Dole, Jura, Bourgogne-Franche-Comté",사육,소,5,1,,5,,-,Y,Y,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Bourgogne-Franche-Comté,Jura,47.01140275,5.736306491
+366,10,유럽,프랑스,2025/10/27,1,2025/10/21,"Dole, Dole, Jura, Bourgogne-Franche-Comté",사육,소,71,3,,,,-,Y,Y,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Bourgogne-Franche-Comté,Jura,46.98774207,5.693966524
+367,10,유럽,프랑스,2025/10/27,1,2025/10/22,"Prades, Prades, Pyrénées-Orientales, Occitanie",사육,소,4,2,,,,-,Y,Y,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Occitanie,Pyrénées-Orientales,42.4648797,2.2234966
+368,10,유럽,프랑스,2025/10/27,1,2025/10/24,"Prades, Prades, Pyrénées-Orientales, Occitanie",사육,소,17,1,,,,-,Y,Y,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Occitanie,Pyrénées-Orientales,42.5488849,2.282419483
+369,10,유럽,프랑스,2025/10/27,1,2025/10/24,"Dole, Dole, Jura, Bourgogne-Franche-Comté",사육,소,4,1,,4,,-,Y,Y,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Bourgogne-Franche-Comté,Jura,47.01393014,5.729117261
+370,10,유럽,스페인,2025/10/27,1,2025/10/17,"CASTELLÓ D'EMPÚRIES, ALT EMPORDA (FIGUERES), GIRONA, Cataluña",사육,소,56,3,0,,,-,,Y,,,,Y,,,Y,,,,,Y,Y,,Y,,,,,,,Y,Cataluña,GIRONA,42.2652944,3.0908147
+371,10,유럽,이탈리아,2025/10/29,1,2025/10/23,"Orgosolo, Orgosolo, Nuoro, Sardegna",사육,소,40,1,0,0,0,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.07977,9.37082
+372,10,유럽,이탈리아,2025/10/29,1,2025/10/27,"Paulilatino, Paulilatino, Oristano, Sardegna",사육,소,17,1,1,0,0,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Oristano,40.090098,8.720283
+373,10,유럽,프랑스,2025/10/30,1,2025/10/25,"Céret, Céret, Pyrénées-Orientales, Occitanie",사육,소,27,4,,,,-,Y,Y,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Occitanie,Pyrénées-Orientales,42.5544703,2.565690732
+374,11,유럽,이탈리아,2025/11/05,1,2025/10/25,"Olzai, Olzai, Nuoro, Sardegna",사육,소,95,5,0,47,0,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.18562,9.10301
+375,11,유럽,이탈리아,2025/11/05,1,2025/10/25,"Olzai, Olzai, Nuoro, Sardegna",사육,소,125,16,2,86,0,-,Y,,,,,Y,,,,,,,,Y,Y,,Y,Y,,,,,,,Sardegna,Nuoro,40.19251,9.094149
+376,11,유럽,프랑스,2025/11/04,1,2025/10/29,"Céret, Céret, Pyrénées-Orientales, Occitanie",사육,소,1,1,,,,-,Y,Y,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Occitanie,Pyrénées-Orientales,42.46083609,2.447824618
+377,11,유럽,프랑스,2025/11/06,1,2025/11/01,"Prades, Prades, Pyrénées-Orientales, Occitanie",사육,소,45,3,,,,-,Y,Y,,,,Y,,,,,Y,,,Y,,,Y,,,,,,,,Occitanie,Pyrénées-Orientales,42.61782086,2.495403599
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
